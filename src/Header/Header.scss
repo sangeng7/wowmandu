@@ -1,0 +1,45 @@
+.header{
+    &-top{
+        line-height: 100px;
+        border-bottom: 1px solid #e8edf1;
+        .social-icons{
+            ul{
+                li{
+                    font-size: 14px;
+                    .icons{
+                        color: #797979;
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+                    
+                }
+            }
+        }
+        .logo{
+            width: 70%;
+            margin: auto;
+        }
+        .search{
+            &-icon{
+                display: inline-block;
+                .icons{
+                    color: #797979;
+                }
+            }
+            a{
+                display: inline-block;
+            }
+        }
+    }
+
+    &-bottom{
+        .navbar{
+            padding: 30px 0;
+            li{
+                font-size: 15px;
+            }
+        }
+    }
+    
+}

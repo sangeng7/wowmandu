@@ -1,0 +1,229 @@
+.cards {
+    &-top {
+        margin-bottom: 80px;
+
+        &-left {
+            position: relative;
+
+            &-img {
+
+                overflow: hidden;
+
+                img {
+                    transition: 0.9s;
+
+                    &:hover {
+                        transform: scale(1.1);
+
+                    }
+                }
+            }
+
+            &-text {
+                width: 80%;
+                padding: 40px;
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-color: #fff;
+
+                a {
+                    font-size: 12px;
+                    color: #ff7a7f;
+
+                    &:hover {
+                        color: #797979;
+                    }
+                }
+
+                h3 {
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                }
+
+                p {
+                    color: #797979;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        &-mid {
+            position: relative;
+
+            &-img {
+
+                overflow: hidden;
+
+                img {
+                    transition: 0.9s;
+
+                    &:hover {
+                        transform: scale(1.1);
+
+                    }
+                }
+            }
+
+            &-text {
+                width: 100%;
+                padding: 0 65px;
+                position: absolute;
+                bottom: 33%;
+                right: 0;
+
+                a {
+                    font-size: 12px;
+                    color: #fff;
+
+                    &:hover {
+                        color: #ff7a7f;
+                    }
+                }
+
+                h3 {
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    color: #fff;
+
+                    &:hover {
+                        color: #ff7a7f;
+                    }
+                }
+
+                p {
+                    color: #fff;
+                    font-weight: 600;
+                }
+            }
+        }
+
+        &-right {
+            position: relative;
+
+            &-img {
+                overflow: hidden;
+
+                img {
+                    transition: 0.9s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            &-text {
+                position: absolute;
+                background-color: #fff;
+                right: 5%;
+                bottom: 0;
+                width: 90%;
+                padding: 8px 18px;
+
+                a {
+                    font-size: 12px;
+                    color: #ff7a7f;
+
+                    &:hover {
+                        color: #797979;
+                    }
+                }
+
+                p {
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+            }
+
+        }
+    }
+
+    &-bottom {
+        &-left {
+            border: 10px solid #ff7a7f;
+            position: relative;
+
+            &:hover {
+                .cards-bottom-left-img {
+                    overflow: hidden;
+
+                    img {
+                        transition: 0.9s;
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+
+            &-text {
+                position: relative;
+                right: 0;
+                width: 100%;
+                padding: 25px 25px 25px 0;
+
+                a {
+                    font-size: 11px;
+                    color: #ff7a7f;
+
+                    &:hover {
+                        color: #797979;
+                    }
+                }
+
+                h3 {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: #33353b;
+                }
+
+                p {
+                    color: #797979;
+                    font-weight: 600;
+                    font-size: 13px;
+                }
+            }
+        }
+
+        &-right {
+            position: relative;
+            border: 6px solid #b9be7e;
+
+            &-img {
+                overflow: hidden;
+
+                img {
+                    transition: 0.9s;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+
+            &-text {
+                position: absolute;
+                width: 100%;
+                right: 0;
+                width: 100%;
+                bottom: 0;
+                padding: 0 18px;
+
+                a {
+                    font-size: 12px;
+                    color: #fff;
+
+                    &:hover {
+                        color: #ff7a7f;
+                    }
+                }
+
+                p {
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
