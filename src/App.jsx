@@ -11,10 +11,11 @@ function App() {
     <>
     <Header/>
     <Cards/>
+    <Trending/>
     <Picks/>
     <Banner/>
     <Travel/>
-    <Trending/>
+
     </>
   )
 }
