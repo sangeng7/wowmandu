@@ -5,6 +5,9 @@ import Picks from './Picks/Picks'
 import Banner from './Banner/Banner'
 import Travel from './Travel/Travel'
 import Trending from './Trending/Trending'
+import Sports from './Sports/Sports'
+import International from './International/International'
+import Footer from './Footer/Footer'
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
     <Picks/>
     <Banner/>
     <Travel/>
+    <Sports/>
+    <International/>
+    <Footer/>
 
     </>
   )

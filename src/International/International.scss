@@ -1,5 +1,7 @@
-.trending {
+.international {
+    background-color: #FBF1F2;
     padding: 100px 0;
+
     &-header {
         padding-bottom: 60px;
 
@@ -22,40 +24,55 @@
         }
     }
 
-    &-card {
+    &-left {
         &-text {
+            background-color: #fff;
             margin-top: -92px;
-            right: -6%;
+            right: -3%;
             width: 94%;
             padding: 40px;
             z-index: 555;
-            background-color: #fff;
             position: relative;
-            .sub-heading{
+            h3{
+                font-weight: 600;
                 a{
-                    font-size: 12px;
-                    color: #ff7a7f;
-                    &:hover{
-                        color: #33353b;
-                    }
-                }
-            }
-            h4{
-                a{
-                    font-size: 1.2rem;
-                    font-weight: 600;
                     color: #33353b;
-                    &:hover{
-                        color: #ff7a7f;
-                    }
                 }
             }
             p{
                 a{
-                    font-size: 14px;
                     color: #797979;
                 }
             }
         }
     }
+    &-right{
+       &-text{
+        background-color: #fff;
+        height: 100%;
+        .sub-heading{
+            a{
+                font-size: 12px;
+                color: #ff7a7f;
+                &:hover{
+                    color: #33353b;
+                }
+            }
+        }
+        h4{
+            a{
+                font-size: 1.2rem;
+                font-weight: 600;
+                color: #33353b;
+            }
+        }
+        p{
+            a{
+                font-size: 14px;
+                color: #797979;
+            }
+        }
+       }
+    }
+
 }

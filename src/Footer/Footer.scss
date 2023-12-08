@@ -1,0 +1,66 @@
+.footer{
+
+    &-top{
+        padding: 80px 0px 60px 0px;
+        &-logo{
+            width: 40%;
+            margin-top: 30px;
+        }
+        &-header{
+            h5{
+                color: #33353b;
+            }
+        }
+        p{
+            color: #797979;
+            font-size: 15px;
+        }
+        ul{
+            li{
+                transition: 0.9s;
+                &:hover{
+                    transform: translateX(10px);
+                }
+            }
+        }
+        .textarea{
+            margin-top: 30px;
+            position: relative;
+            input{
+                width: 100%;
+                padding: 8px 22px;
+                border-radius: 30px;
+                border: 1px solid #e8edf1;
+                position: relative;
+            }
+            .send-icon{
+                position: absolute;
+                color: #fff;
+                background-color: #ff7a7f;
+                padding: 8px 21px 8px 14px;
+                border-radius: 24px;
+                bottom: 1px;
+                border: none;
+                right: 0;
+            }
+        }
+    }
+
+    &-bottom{
+        padding: 20px 0;
+        border-top: 1px solid #e8edf1;
+        &-left{
+            p{
+                color: #797979;
+            }
+        }
+        &-right{
+            p{
+                color: #797979;
+                &:hover{
+                    color: #ff7a7f;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
-.trending {
-    padding: 100px 0;
+.sports {
+    padding: 60px 0;
+
     &-header {
         padding-bottom: 60px;
 
@@ -22,15 +23,51 @@
         }
     }
 
-    &-card {
+    &-left {
         &-text {
             margin-top: -92px;
-            right: -6%;
+            right: -6.1%;
             width: 94%;
             padding: 40px;
             z-index: 555;
-            background-color: #fff;
             position: relative;
+            background-color: #fff;
+            .sub-heading{
+                a{
+                    font-size: 12px;
+                    color: #ff7a7f;
+                    &:hover{
+                        color: #33353b;
+                    }
+                }
+            }
+            h4{
+                a{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: #33353b;
+                    &:hover{
+                        color: #ff7a7f;
+                    }
+                }
+            }
+            p{
+                a{
+                    font-size: 14px;
+                    color: #797979;
+                }
+            }
+        }
+    }
+    &-right{
+        &-text {
+            margin-top: -92px;
+            right: -6.1%;
+            width: 94%;
+            padding: 20px;
+            z-index: 555;
+            position: relative;
+            background-color: #fff;
             .sub-heading{
                 a{
                     font-size: 12px;
