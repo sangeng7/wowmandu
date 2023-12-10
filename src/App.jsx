@@ -8,6 +8,7 @@ import Trending from './Trending/Trending'
 import Sports from './Sports/Sports'
 import International from './International/International'
 import Footer from './Footer/Footer'
+import ScrollTop from './ScrollTop/ScrollTop'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Sports/>
     <International/>
     <Footer/>
+    <ScrollTop/>
 
     </>
   )

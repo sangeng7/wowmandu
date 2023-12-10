@@ -1,0 +1,29 @@
+.box {
+    background-color: #F56960;
+    padding: 12px;
+    width: 50px;
+    text-align: center;
+    position: fixed;
+    right: 25px;
+    bottom: 40px;
+    border-radius: 50%;
+    z-index: 999999;
+    cursor: pointer;
+    transition: 2s;
+    scroll-behavior: smooth;
+
+    &:hover {
+        transform: translateY(-6px);
+        .top {
+            transition: 0.8s;
+            transform: rotateZ(360deg);
+        }
+    }
+
+    a {
+        font-size: 16px;
+        font-weight: bolder;
+        color: white;
+    }
+
+}
