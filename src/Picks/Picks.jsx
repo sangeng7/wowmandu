@@ -21,7 +21,7 @@ function Picks() {
                                         <a className='' href="">TOURS & TRAVELS</a>
                                     </div>
                                     <h3 className='mt-2 mb-3'>Created face stars sixth forth Earth firmament</h3>
-                                    <p>March 12 , 2019 .<span className='text-dark'>By Alen Mark</span></p>
+                                    <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                 </div>
                             </div>
                         </div>

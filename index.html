@@ -51,6 +51,27 @@
         $('.box').hide()
       }
     });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      function updateDate() {
+        const currentDateElements = document.querySelectorAll(".currentDate");
+        const date = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const formattedDate = date.toLocaleDateString(undefined, options);
+
+        currentDateElements.forEach(element => {
+          element.textContent = formattedDate;
+        });
+      }
+
+      // Call the function to update the date initially
+      updateDate();
+
+      // Update the date every second (you can adjust the interval as needed)
+      setInterval(updateDate, 1000);
+    });
+
+
   </script>
 </body>
 

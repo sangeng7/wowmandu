@@ -18,7 +18,7 @@ function International() {
                                 </div>
                                 <div className="international-left-text">
                                     <div className="">
-                                        <a className='' href="">shoes / March 15, 2019</a>
+                                    <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                     </div>
                                     <h3 className='mt-2 mb-3'> <a href="">Created face stars sixth forth fow Earth firmament meat</a></h3>
                                     <p><a href="">05 comment 0 like 1k view</a></p>

@@ -17,8 +17,9 @@ function Cards() {
                                         <a className='' href="">TOURS & TRAVELS</a>
                                     </div>
                                     <h3 className='mt-2 mb-3'>Created face stars sixth forth fow Earth firmament meat</h3>
-                                    <p>March 12 , 2019 .<span className='text-dark'>By Alen Mark</span></p>
+                                    <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                 </div>
+
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -31,7 +32,7 @@ function Cards() {
                                         <a className='' href="">TOURS & TRAVELS</a>
                                     </div>
                                     <h3 className='mt-2 mb-3'>Created face stars sixth forth fow Earth firmament meat</h3>
-                                    <p>March 12 , 2019 .<span className=''>By Alen Mark</span></p>
+                                    <p><span className='currentDate'>March 12 , 2019</span><span className='text-light'> .By Alen Mark</span></p>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +87,7 @@ function Cards() {
                                                     <a className='' href="">TOURS & TRAVELS</a>
                                                 </div>
                                                 <h3 className='mt-2 mb-3'>Brought all day domi nion appear from subdue dominion firmament over face</h3>
-                                                <p>March 12 , 2019 .<span className='text-dark'>By Alen Mark</span></p>
+                                                <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                             </div>
                                         </div>
                                     </div>

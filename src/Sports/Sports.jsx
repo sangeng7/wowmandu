@@ -18,7 +18,7 @@ function Sports() {
                                 </div>
                                 <div className="sports-left-text">
                                     <div className="sub-heading">
-                                        <a href="">Sports / Dec 8,2023</a>
+                                        <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                     </div>
                                     <h4><a href="">Brought dreepeth youll blessed from whose signs over</a></h4>
                                     <p><a href="">Comment Like</a></p>
@@ -34,7 +34,7 @@ function Sports() {
                                         </div>
                                         <div className="sports-right-text">
                                             <div className="sub-heading">
-                                                <a href="">Sports / Dec 8,2023</a>
+                                                <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
                                             <p><a href="">Comment Like</a></p>
@@ -46,7 +46,7 @@ function Sports() {
                                         </div>
                                         <div className="sports-right-text">
                                             <div className="sub-heading">
-                                                <a href="">Sports / Dec 8,2023</a>
+                                            <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
                                             <p><a href="">Comment Like</a></p>
@@ -58,7 +58,7 @@ function Sports() {
                                         </div>
                                         <div className="sports-right-text">
                                             <div className="sub-heading">
-                                                <a href="">Sports / Dec 8,2023</a>
+                                            <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
                                             <p><a href="">Comment Like</a></p>
@@ -70,7 +70,7 @@ function Sports() {
                                         </div>
                                         <div className="sports-right-text">
                                             <div className="sub-heading">
-                                                <a href="">Sports / Dec 8,2023</a>
+                                            <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
                                             <p><a href="">Comment Like</a></p>
