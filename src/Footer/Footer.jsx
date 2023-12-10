@@ -20,7 +20,7 @@ function Footer() {
                                 </div>
                                 <p>Heaven fruitful doesn't over lesser days appear creeping seasons so behold bearing days open</p>
                                 <div className="footer-top-logo">
-                                    <img className='w-100' src="public\footerLogo.jpg" alt="" />
+                                    <img className='w-100' src="footerLogo.jpg" alt="" />
                                 </div>
                             </div>
                             <div className="col-md-3">
