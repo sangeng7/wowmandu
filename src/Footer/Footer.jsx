@@ -67,10 +67,10 @@ function Footer() {
                             </div>
                             <div className="col-md-6">
                                 <div className="footer-bottom-right text-end">
-                                    <p className='d-inline-block me-2'><FontAwesomeIcon icon={faFacebookF} /></p>
-                                    <p className='d-inline-block mx-2'><FontAwesomeIcon icon={faInstagram} /></p>
-                                    <p className='d-inline-block mx-2'><FontAwesomeIcon icon={faXTwitter} /></p>
-                                    <p className='d-inline-block ms-2'><FontAwesomeIcon icon={faGoogle} /></p>
+                                    <p className='d-inline-block me-2 fb'><a href=""><FontAwesomeIcon icon={faFacebookF} /></a></p>
+                                    <p className='d-inline-block mx-2 inst'><a href=""><FontAwesomeIcon icon={faInstagram} /></a></p>
+                                    <p className='d-inline-block mx-2 twt'><a href=""><FontAwesomeIcon icon={faXTwitter} /></a></p>
+                                    <p className='d-inline-block ms-2 gg'><a href=""><FontAwesomeIcon icon={faGoogle} /></a></p>
 
                                 </div>
                             </div>

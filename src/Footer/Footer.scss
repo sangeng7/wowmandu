@@ -55,10 +55,36 @@
             }
         }
         &-right{
-            p{
-                color: #797979;
-                &:hover{
-                    color: #ff7a7f;
+            .fb{
+                a{
+                    color: #797979;
+                    &:hover{
+                        color: #3A589D;
+                    }
+                }
+            }
+            .inst{
+                a{
+                    color: #797979;
+                    &:hover{
+                        color: #3A6894;
+                    }
+                }
+            }
+            .twt{
+                a{
+                    color: #797979;
+                    &:hover{
+                        color: #2478BA;
+                    }
+                }
+            }
+            .gg{
+                a{
+                    color: #797979;
+                    &:hover{
+                        color: #4285F4;
+                    }
                 }
             }
         }

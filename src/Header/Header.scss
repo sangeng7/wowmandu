@@ -6,13 +6,46 @@
             ul{
                 li{
                     font-size: 14px;
-                    .icons{
+                }
+                .fb{
+                    a{
                         color: #797979;
                         &:hover{
-                            color: #000;
+                            color: #3A589D;
                         }
                     }
-                    
+                }
+                .inst{
+                    a{
+                        color: #797979;
+                        &:hover{
+                            color: #3A6894;
+                        }
+                    }
+                }
+                .twt{
+                    a{
+                        color: #797979;
+                        &:hover{
+                            color: #2478BA;
+                        }
+                    }
+                }
+                .gg{
+                    a{
+                        color: #797979;
+                        &:hover{
+                            color: #4285F4;
+                        }
+                    }
+                }
+                .lkd{
+                    a{
+                        color: #797979;
+                        &:hover{
+                            color: #0077B5;
+                        }
+                    }
                 }
             }
         }

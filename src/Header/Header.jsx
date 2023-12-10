@@ -15,11 +15,11 @@ function Header() {
                             <div className="col-md-4">
                                 <div className="social-icons">
                                     <ul className='d-flex'>
-                                        <li className='me-2'><a href=""><FontAwesomeIcon className='icons' icon={faFacebookF} /></a></li>
-                                        <li className='mx-2'><a href=""><FontAwesomeIcon className='icons' icon={faInstagram} /></a></li>
-                                        <li className='mx-2'><a href=""><FontAwesomeIcon className='icons' icon={faXTwitter} /></a></li>
-                                        <li className='mx-2'><a href=""><FontAwesomeIcon className='icons' icon={faGoogle} /></a></li>
-                                        <li className='ms-2'><a href=""><FontAwesomeIcon className='icons' icon={faLinkedin} /></a></li>
+                                        <li className='me-2 fb'><a href=""><FontAwesomeIcon className='icons' icon={faFacebookF} /></a></li>
+                                        <li className='mx-2 inst'><a href=""><FontAwesomeIcon className='icons' icon={faInstagram} /></a></li>
+                                        <li className='mx-2 twt'><a href=""><FontAwesomeIcon className='icons' icon={faXTwitter} /></a></li>
+                                        <li className='mx-2 gg'><a href=""><FontAwesomeIcon className='icons' icon={faGoogle} /></a></li>
+                                        <li className='ms-2 lkd'><a href=""><FontAwesomeIcon className='icons' icon={faLinkedin} /></a></li>
 
                                     </ul>
                                 </div>
