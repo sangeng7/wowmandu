@@ -7,7 +7,7 @@ function Travel() {
             <div className="travel">
                 <div className="container">
                     <div className="travel-header text-center">
-                        <h3 className='mb-4'>Travel News</h3>
+                        <h3 className='mb-4'><a href="">Travel News</a></h3>
                         <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
                     </div>
                     <div className="row">

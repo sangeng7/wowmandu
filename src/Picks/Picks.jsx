@@ -7,7 +7,7 @@ function Picks() {
             <div className="picks">
                 <div className="container">
                     <div className="picks-header text-center">
-                        <h3 className='mb-4'>Editor Picks</h3>
+                        <h3 className='mb-4'><a href="">Editor Picks</a></h3>
                         <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
                     </div>
                     <div className="row g-4">
