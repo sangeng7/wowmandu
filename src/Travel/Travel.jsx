@@ -28,12 +28,12 @@ function Travel() {
                         <div className="col-md-5">
                             <div className="travel-right">
                                 <div className="row g-4">
-                                    <div className="col-md-5 pe-0">
+                                    <div className="col-md-5 pe-md-0">
                                         <div className="travel-right-img">
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/12.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-7 ps-0">
+                                    <div className="col-md-7 ps-md-0">
                                         <div className="travel-right-text p-3">
                                             <div className="sub-heading">
                                                 <a href="">Travel</a>
@@ -42,12 +42,12 @@ function Travel() {
                                             <p><a href="">Like Comment Share</a></p>
                                         </div>
                                     </div>
-                                    <div className="col-md-5 pe-0">
+                                    <div className="col-md-5 pe-md-0">
                                         <div className="travel-right-img">
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/13.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-7 ps-0">
+                                    <div className="col-md-7 ps-md-0">
                                         <div className="travel-right-text p-3">
                                             <div className="sub-heading">
                                                 <a href="">Travel</a>
@@ -56,12 +56,12 @@ function Travel() {
                                             <p><a href="">Like Comment Share</a></p>
                                         </div>
                                     </div>
-                                    <div className="col-md-5 pe-0">
+                                    <div className="col-md-5 pe-md-0">
                                         <div className="travel-right-img">
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/14.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-7 ps-0">
+                                    <div className="col-md-7 ps-md-0">
                                         <div className="travel-right-text p-3">
                                             <div className="sub-heading">
                                                 <a href="">Travel</a>

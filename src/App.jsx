@@ -9,6 +9,7 @@ import Sports from './Sports/Sports'
 import International from './International/International'
 import Footer from './Footer/Footer'
 import ScrollTop from './ScrollTop/ScrollTop'
+import './responsive.scss'
 
 function App() {
   return (

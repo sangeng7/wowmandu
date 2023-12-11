@@ -59,18 +59,28 @@
             right: 0;
             background-color: #fff;
 
-            a {
-                font-size: 12px;
-                color: #ff7a7f;
-
-                &:hover {
-                    color: #797979;
+            .sub-heading {
+                a{
+                    font-size: 12px;
+                    color: #ff7a7f;
+    
+                    &:hover {
+                        color: #797979;
+                    }
                 }
+                
             }
 
             h3 {
-                font-size: 1.8rem;
-                font-weight: 600;
+                a{
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    color: #33353b;
+                    &:hover{
+                        color: #ff7a7f;
+                    }
+                }
+              
             }
 
             p {

@@ -6,17 +6,17 @@ function Cards() {
         <>
             <div className="cards px-3">
                 <div className="cards-top">
-                    <div className="row">
+                    <div className="row g-4">
                         <div className="col-md-5">
                             <div className="cards-top-left">
                                 <div className="cards-top-left-img">
                                     <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/1.jpg" alt="" />
                                 </div>
                                 <div className="cards-top-left-text">
-                                    <div className="">
+                                    <div className="sub-heading">
                                         <a className='' href="">TOURS & TRAVELS</a>
                                     </div>
-                                    <h3 className='mt-2 mb-3'>Created face stars sixth forth fow Earth firmament meat</h3>
+                                    <h3 className='mt-2 mb-3'><a href="">Created face stars sixth forth fow Earth firmament meat</a></h3>
                                     <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                 </div>
 
@@ -28,10 +28,10 @@ function Cards() {
                                     <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/2.jpg" alt="" />
                                 </div>
                                 <div className="cards-top-mid-text">
-                                    <div className="">
-                                        <a className='' href="">TOURS & TRAVELS</a>
+                                    <div className="sub-heading">
+                                        <a href="">TOURS & TRAVELS</a>
                                     </div>
-                                    <h3 className='mt-2 mb-3'>Created face stars sixth forth fow Earth firmament meat</h3>
+                                    <h3 className='mt-2 mb-3'><a href="">Created face stars sixth forth fow Earth firmament meat</a></h3>
                                     <p><span className='currentDate'>March 12 , 2019</span><span className='text-light'> .By Alen Mark</span></p>
                                 </div>
                             </div>
@@ -44,10 +44,10 @@ function Cards() {
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/3.jpg" alt="" />
                                         </div>
                                         <div className="cards-top-right-text text-center">
-                                            <div className="">
+                                            <div className="sub-heading">
                                                 <a className='' href="">Lifestyle</a>
                                             </div>
-                                            <p>The abundantly brought after day fish there image</p>
+                                            <h6><a href="">The abundantly brought after day fish there image</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -57,10 +57,10 @@ function Cards() {
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/4.jpg" alt="" />
                                         </div>
                                         <div className="cards-top-right-text text-center">
-                                            <div className="">
+                                            <div className="sub-heading">
                                                 <a className='' href="">Lifestyle</a>
                                             </div>
-                                            <p>The abundantly brought after day fish there image</p>
+                                            <h6><a href="">The abundantly brought after day fish there image</a></h6>
                                         </div>
                                     </div>
                                 </div>
@@ -83,10 +83,10 @@ function Cards() {
                                         </div>
                                         <div className="col-md-7">
                                             <div className="cards-bottom-left-text ">
-                                                <div className="">
+                                                <div className="sub-heading">
                                                     <a className='' href="">TOURS & TRAVELS</a>
                                                 </div>
-                                                <h3 className='mt-2 mb-3'>Brought all day domi nion appear from subdue dominion firmament over face</h3>
+                                                <h3 className='mt-2 mb-3'><a href="">Brought all day domi nion appear from subdue dominion firmament over face</a></h3>
                                                 <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                             </div>
                                         </div>
@@ -100,7 +100,7 @@ function Cards() {
                                     </div>
                                     <div className="cards-bottom-right-text">
                                         <a href="">Tours & Travel</a>
-                                        <p className='mb-3'>Abundantly forth late appear fourth us.</p>
+                                        <h6 className='mb-3'><a href="">Abundantly forth late appear fourth us.</a></h6>
                                     </div>
                                 </div>
 
@@ -112,7 +112,7 @@ function Cards() {
                                     </div>
                                     <div className="cards-bottom-right-text">
                                         <a href="">Tours & Travel</a>
-                                        <p className='mb-3'>Abundantly forth late appear fourth us.</p>
+                                        <h6 className='mb-3'><a href="">Abundantly forth late appear fourth us.</a></h6>
                                     </div>
                                 </div>
 

@@ -17,8 +17,8 @@ function International() {
                                     <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/11.jpg" alt="" />
                                 </div>
                                 <div className="international-left-text">
-                                    <div className="">
-                                    <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
+                                    <div className="sub-heading">
+                                        <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                     </div>
                                     <h3 className='mt-2 mb-3'> <a href="">Created face stars sixth forth fow Earth firmament meat</a></h3>
                                     <p><a href="">05 comment 0 like 1k view</a></p>
@@ -28,12 +28,12 @@ function International() {
                         <div className="col-md-5">
                             <div className="international-right">
                                 <div className="row g-4">
-                                    <div className="col-md-5 pe-0">
+                                    <div className="col-md-5 col-sm-12 pe-md-0">
                                         <div className="international-right-img">
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/12.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-7 ps-0">
+                                    <div className="col-md-7 col-sm-12 ps-md-0 ">
                                         <div className="international-right-text p-3">
                                             <div className="sub-heading">
                                                 <a href="">International News</a>
@@ -42,12 +42,12 @@ function International() {
                                             <p><a href="">Like Comment Share</a></p>
                                         </div>
                                     </div>
-                                    <div className="col-md-5 pe-0">
+                                    <div className="col-md-5 pe-md-0">
                                         <div className="international-right-img">
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/13.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-7 ps-0">
+                                    <div className="col-md-7 ps-md-0">
                                         <div className="international-right-text p-3">
                                             <div className="sub-heading">
                                                 <a href="">International News</a>
@@ -56,12 +56,12 @@ function International() {
                                             <p><a href="">Like Comment Share</a></p>
                                         </div>
                                     </div>
-                                    <div className="col-md-5 pe-0">
+                                    <div className="col-md-5 pe-md-0">
                                         <div className="international-right-img">
                                             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/14.jpg" alt="" />
                                         </div>
                                     </div>
-                                    <div className="col-md-7 ps-0">
+                                    <div className="col-md-7 ps-md-0">
                                         <div className="international-right-text p-3">
                                             <div className="sub-heading">
                                                 <a href="">International News</a>

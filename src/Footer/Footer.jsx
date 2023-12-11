@@ -14,7 +14,7 @@ function Footer() {
                 <div className="container">
                     <div className="footer-top">
                         <div className="row g-4">
-                            <div className="col-md-3">
+                            <div className="col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>About Us</h5>
                                 </div>
@@ -23,7 +23,7 @@ function Footer() {
                                     <img className='w-100' src="footerLogo.jpg" alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>Contact Info</h5>
                                 </div>
@@ -32,7 +32,7 @@ function Footer() {
                                 <p>Email : info@colorlib.com</p>
 
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>Important Links</h5>
                                 </div>
@@ -44,7 +44,7 @@ function Footer() {
                                     <li className='mb-2'><p>Our Shop</p></li>
                                 </ul>
                             </div>
-                            <div className="col-md-3">
+                            <div className="col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>Send Message</h5>
                                 </div>
@@ -60,12 +60,12 @@ function Footer() {
                     </div>
                     <div className="footer-bottom">
                         <div className="row">
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-xs-12 ">
                                 <div className="footer-bottom-left">
                                     <p>Copyright ©2023 All rights reserved</p>
                                 </div>
                             </div>
-                            <div className="col-md-6">
+                            <div className="col-md-6 col-xs-12">
                                 <div className="footer-bottom-right text-end">
                                     <p className='d-inline-block me-2 fb'><a href=""><FontAwesomeIcon icon={faFacebookF} /></a></p>
                                     <p className='d-inline-block mx-2 inst'><a href=""><FontAwesomeIcon icon={faInstagram} /></a></p>
