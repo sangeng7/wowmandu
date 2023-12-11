@@ -24,10 +24,14 @@
     .cards{
         
         &-top{
+            margin-bottom: 50px;
             &-left{
                 &-text{
                     width: 90%;
-                    padding: 25px;
+                    right: -5%;
+                    bottom: 30px;
+                    padding: 20px;
+                    position: relative;
                     .sub-heading{
                         a{
                             font-size: 11px;
@@ -35,11 +39,11 @@
                     }
                     h3{
                         a{
-                            font-size: 1.2rem;
+                            font-size: 1.05rem;
                         }
                     }
                     p{
-                        font-size: 14px;
+                        font-size: 12px;
                     }
                 }
             }
@@ -54,14 +58,24 @@
                     }
                 }
             }
+            &-right{
+                &-text{
+                    padding: 5px 8px;
+                    h6{
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
         }
         &-bottom{
             &-left{
                 &-text{
-                    padding: 25px;
+                    padding: 20px;
                     h3{
                         a{
-                            font-size: 1.1rem;
+                            font-size: 16px;
                         }
                     }
                 }
@@ -70,21 +84,29 @@
     }
 
     .trending{
-        padding: 80px 0;
+        padding: 60px 0;
         &-header {
+            padding-bottom: 40px;
             h3 {
                 a {
-                    font-size: 1.8rem;
+                    font-size: 1.2rem;
                 }
             }
 
             p {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
         &-card{
             &-text{
-                padding: 25px;
+                margin-top: 0;
+                right: 0;
+                padding: 20px;
+                h4{
+                    a{
+                        font-size: 16px;
+                    }
+                }
             }
         }
     }
@@ -105,34 +127,38 @@
         &-left {
             &-text {
                 width: 90%;
-                padding: 25px;
+                padding: 20px;
 
                 h3 {
                     a {
-                        font-size: 18px;
+                        font-size: 16px;
                     }
                 }
 
                 p {
-                    font-size: 13px;
+                    font-size: 12px;
                 }
             }
         }
 
         &-right{
             &-text{
+                p{
+                    font-size: 15px;
+                }
                 padding: 0 25px 0 0;
             }
         }
     }
 
     .travel {
-        padding: 80px 0;
+        padding: 60px 0;
 
         &-header {
+            padding-bottom: 40px;
             h3 {
                 a {
-                    font-size: 1.8rem;
+                    font-size: 1.2rem;
                 }
             }
 
@@ -169,6 +195,7 @@
         }
 
         &-right {
+            margin-bottom: 30px;
             &-text {
                 h4 {
                     a {
@@ -184,15 +211,16 @@
     }
 
     .sports {
+        padding: 60px 0;
         &-header {
             h3 {
                 a {
-                    font-size: 1.8rem;
+                    font-size: 1.2rem;
                 }
             }
 
             p {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
 
@@ -238,17 +266,17 @@
     }
 
     .international {
-        padding: 80px 0;
+        padding: 6% 0;
 
         &-header {
             h3 {
                 a {
-                    font-size: 1.6rem;
+                    font-size: 1.2rem;
                 }
             }
 
             p {
-                font-size: 14px;
+                font-size: 12px;
             }
         }
 
@@ -296,18 +324,36 @@
 
     .footer {
         &-top {
+            text-align: center;
             padding: 40px 0 30px 0;
+            &-header{
+                h5{
+                    font-size: 1.05rem;
+                    margin-bottom: 14px !important;
+                }
+            }
+            p{
+                font-size: 13px;
+            }
 
             &-logo {
-                width: 25%;
+                width: 30%;
+                margin: 25px auto 0;
+            }
+            .textarea{
+                input{
+                    font-size: 13px;
+                    padding: 5px 14px;
+                }
+                .send-icon{
+                    padding: 3px 16px 7px 16px;
+                }
             }
 
-            p {
-                font-size: 14px;
-            }
         }
 
         &-bottom {
+            font-size: 14px;
             &-left {
                 text-align: center;
                 margin-bottom: 8px;
@@ -330,6 +376,18 @@
 }
 
 @include sm{
+
+    .picks{
+        padding: 60px 0;
+        &-header {
+            padding-bottom: 40px ;
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
 
     .travel{
         padding: 70px 0;
