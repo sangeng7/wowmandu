@@ -375,10 +375,32 @@
     }
 }
 
+
 @include sm{
 
+    .trending{
+        &-header{
+            h3{
+                a{
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        &-card{
+            &-text{
+                padding: 20px 5px;
+                width: 100%;
+                right: 0;
+                h4{
+                    a{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
     .picks{
-        padding: 60px 0;
         &-header {
             padding-bottom: 40px ;
             h3 {
@@ -464,10 +486,63 @@
         }
     }
     
-    
 }
 
 @include md{
+    .trending{
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        &-card{
+            &-text{
+                padding: 5px;
+                width: 100%;
+                right: 0;
+                h4{
+                    a{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .picks{
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        &-left{
+            &-text{
+                padding: 25px;
+                width: 90%;
+                .sub-heading{
+                    a{
+                        font-size: 11px;
+                    }
+
+                }
+                h3{
+                    a{
+                        font-size: 1.1rem;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
 
     .travel{
         padding: 70px 0;
@@ -599,8 +674,51 @@
 
 @include lg{
 
+    .trending{
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+        &-card{
+            &-text{
+                padding: 10px 5px;
+                width: 100%;
+                right: 0;
+                h4{
+                    a{
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .picks{
+        padding-bottom: 50px;
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
     .travel{
         padding: 60px 0;
+        &-header{
+            h3{
+                a{
+                    font-size: 2rem;
+                }
+            }
+        }
         &-left{
             &-text{
                 padding: 30px;
@@ -616,7 +734,7 @@
             padding-bottom: 50px ;
             h3 {
                 a {
-                    font-size: 1.7rem;
+                    font-size: 2rem;
                 }
             }
         }
@@ -639,6 +757,14 @@
 
     .international{
         padding: 60px 0;
+        &-header{
+            h3{
+                a{
+                    font-size: 2rem;
+
+                }
+            }
+        }
         &-left{
             &-text{
                 padding: 30px;
@@ -660,6 +786,14 @@
 }
 
 @include xl{
+
+    .picks{
+        &-left{
+            &-text{
+                padding: 30px;
+            }
+        }
+    }
 
     .travel{
         padding: 80px 0;
