@@ -243,7 +243,7 @@
         &-header {
             h3 {
                 a {
-                    font-size: 1.8rem;
+                    font-size: 1.6rem;
                 }
             }
 
@@ -330,16 +330,108 @@
 }
 
 @include sm{
-    .footer{
-        &-top{
-            &-logo{
-                width: 25%;
+
+    .sports{
+        padding: 70px 0;
+        &-header {
+            padding-bottom: 40px ;
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+        &-left{
+            &-text{
+                padding: 25px;
+                .sub-heading{
+                    a{
+                        font-size: 11px;
+                    }
+                }
+                h4{
+                    a{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+        &-right{
+            &-text{
+                .sub-heading{
+                    a{
+                        font-size: 11px;
+                    }
+                }
+                h4{
+                    a{
+                        font-size: 1rem;
+                    }
+                }
             }
         }
     }
+
+    .international{
+        padding: 70px 0;
+        &-header {
+            padding-bottom: 40px ;
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    .footer{
+        &-top{
+            text-align: center;
+            &-logo{
+                width: 25%;
+                margin:  25px auto;
+            }
+        }
+    }
+    
+    
 }
 
 @include md{
+
+    .international{
+        padding: 70px 0;
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        &-left {
+            &-text {
+                margin-top: -30px;
+                padding: 30px;
+                .sub-heading{
+                    a{
+                        font-size: 13px;
+                    }
+                }
+                h3{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        &-right{
+            margin-top: 30px;
+            .row{
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
     .footer{
 
         &-top{
@@ -359,9 +451,23 @@
           }
         }
     }
+    
 }
 
 @include lg{
+
+
+    .international{
+        padding: 60px 0;
+        &-left{
+            &-text{
+                padding: 30px;
+            }
+        }
+        &-right{
+            margin-top: 30px;
+        }
+    }
 
     .footer{
         &-top{
@@ -370,13 +476,11 @@
             }
         }
     }
+    
 }
 
 @include xl{
-    // .footer{
-    //     &-top{
-    //         padding: 80px 0px 60px 0px;
-
-    //     }
-    // }
+    .international{
+        padding: 80px 0;
+    }
 }
