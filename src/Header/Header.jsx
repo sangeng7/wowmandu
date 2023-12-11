@@ -12,7 +12,7 @@ function Header() {
                 <div className="header-top">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-md-4 col-xs-6">
+                            <div className="col-lg-4 col-sm-6 col-xs-6">
                                 <div className="social-icons">
                                     <ul className='d-flex'>
                                         <li className='me-2 fb'><a href=""><FontAwesomeIcon className='icons' icon={faFacebookF} /></a></li>
@@ -24,12 +24,12 @@ function Header() {
                                     </ul>
                                 </div>
                             </div>
-                            <div className="col-md-4 col-xs-6">
+                            <div className="col-lg-4 col-sm-6 col-xs-6">
                                 <div className="logo">
                                     <img className='w-100' src="\logo.png" alt="" />
                                 </div>
                             </div>
-                            <div className="col-md-4 col-xs-4">
+                            <div className="col-lg-4 col-xs-4">
                                 <div className="search text-end">
                                     <div className="search-icon me-3">
                                         <FontAwesomeIcon className='icons' icon={faSearch} />

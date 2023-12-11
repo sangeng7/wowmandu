@@ -378,6 +378,56 @@
 
 @include sm{
 
+    .cards{
+        &-top{
+            &-left{
+                &-text{
+                    width: 90%;
+                    padding: 30px;
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background-color: #fff;
+                    h3{
+                        a{
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+            &-mid{
+                &-text{
+                    bottom: 50%;
+                }
+            }
+            &-right{
+                &-text{
+                width: 80%;
+                padding: 20px 25px;
+                right: 10%;
+                margin: auto;
+                    h6{
+                        a{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+        &-bottom{
+            &-left{
+                &-text{
+                    padding: 25px;
+                    h3{
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .trending{
         &-header{
             h3{
@@ -489,6 +539,29 @@
 }
 
 @include md{
+
+    .cards{
+        &-top{
+           
+            &-right{
+                &-text{
+                    h6{
+                        a{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+        &-bottom{
+            &-left{
+                &-text{
+                    padding: 25px 10px 20px 0;
+                }
+            }
+        }
+    }
+
     .trending{
         &-header {
             padding-bottom: 50px ;
@@ -674,6 +747,41 @@
 
 @include lg{
 
+    .cards{
+        &-top{
+            &-left{
+                &-text{
+                    padding: 25px;
+                    h3{
+                        a{
+                            font-size: 1.2rem;
+
+                        }
+                    }
+                }
+            }
+            &-mid{
+                &-text{
+                    text-align: center;
+                    padding: 30px;
+                    h3{
+                        a{
+                            font-size: 1.4rem;
+
+                        }
+                    }
+                }
+            }
+        }
+        &-bottom{
+            &-left{
+                &-text{
+                    top: 20%;
+                }
+            }
+        }
+    }
+
     .trending{
         &-header {
             padding-bottom: 50px ;
@@ -786,6 +894,55 @@
 }
 
 @include xl{
+
+    .cards{
+        &-top{
+            &-left{
+                &-text{
+                    padding: 40px;
+                    h3{
+                        a{
+                            font-size: 1.8rem;
+
+                        }
+                    }
+                }
+                
+            }
+            &-mid{
+                &-text{
+                    text-align: center;
+                    padding: 30px;
+                    h3{
+                        a{
+                            font-size: 1.8rem;
+    
+                        }
+                    }
+                }
+            }
+            &-right{
+                &-text{
+                    padding: 8px 10px;
+                }
+            }
+        }
+        &-bottom{
+            &-left{
+                &-text{
+                    top: 0;
+                }
+            }
+            &-right{
+                &-text{
+                    h6{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        
+    }
 
     .picks{
         &-left{
