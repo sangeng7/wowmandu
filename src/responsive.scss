@@ -4,14 +4,6 @@
 
     .header{
         &-top{
-            // .social-icons{
-            //     width: 50%;
-            //     display: inline-block;
-            // }
-            // .logo{
-            //     width: 50%;
-            //     display: inline-block;
-            // }
             .search{
                 display: none;
             }
@@ -378,6 +370,26 @@
 
 @include sm{
 
+    .header{
+        &-top{
+            .social-icons{
+                ul{
+                    justify-content: center;
+                }
+             
+            }
+            .logo{
+                width: 60%;
+            }
+            .search{
+                display: none;
+            }
+        }
+        &-bottom{
+            display: none;
+        }
+    }
+
     .cards{
         &-top{
             &-left{
@@ -539,6 +551,17 @@
 }
 
 @include md{
+
+    .header{
+        &-top{
+            .search{
+                display: none;
+            }
+        }
+        &-bottom{
+            display: none;
+        }
+    }
 
     .cards{
         &-top{
