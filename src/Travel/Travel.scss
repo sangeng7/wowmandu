@@ -45,6 +45,12 @@
             padding: 40px;
             z-index: 555;
             position: relative;
+            .sub-heading{
+                a{
+                    font-size: 16px;
+                    color: #ff7a7f;
+                }
+            }
             h3{
                 font-weight: 600;
                 a{

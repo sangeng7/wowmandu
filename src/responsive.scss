@@ -331,6 +331,18 @@
 
 @include sm{
 
+    .travel{
+        padding: 70px 0;
+        &-header {
+            padding-bottom: 40px ;
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
     .sports{
         padding: 70px 0;
         &-header {
@@ -398,6 +410,39 @@
 }
 
 @include md{
+
+    .travel{
+        padding: 70px 0;
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        &-left {
+            &-text {
+                margin-top: -30px;
+                padding: 30px;
+                .sub-heading{
+                    a{
+                        font-size: 13px;
+                    }
+                }
+                h3{
+                    font-size: 1.2rem;
+                }
+            }
+        }
+        &-right{
+            margin-top: 30px;
+            .row{
+                margin-bottom: 30px;
+            }
+        }
+
+    }
 
     .sports{
         &-header {
@@ -496,6 +541,18 @@
 
 @include lg{
 
+    .travel{
+        padding: 60px 0;
+        &-left{
+            &-text{
+                padding: 30px;
+            }
+        }
+        &-right{
+            margin-top: 30px;
+        }
+    }
+
     .sports{
         &-header {
             padding-bottom: 50px ;
@@ -545,6 +602,10 @@
 }
 
 @include xl{
+
+    .travel{
+        padding: 80px 0;
+    }
 
     .sports{
         &-header {
