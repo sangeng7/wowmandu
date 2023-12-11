@@ -11,7 +11,7 @@ function Sports() {
                         <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
                     </div>
                     <div className="row g-4">
-                        <div className="col-md-6">
+                        <div className="col-md-12 col-lg-6">
                             <div className="sports-left">
                                 <div className="sports-left-img">
                                     <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/18.jpg" alt="" />
@@ -25,7 +25,7 @@ function Sports() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-12 col-lg-6">
                             <div className="sports-right">
                                 <div className="row g-4">
                                     <div className="col-md-6">
@@ -37,7 +37,7 @@ function Sports() {
                                                 <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
-                                            <p><a href="">Comment Like</a></p>
+                                            <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
@@ -49,7 +49,7 @@ function Sports() {
                                             <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
-                                            <p><a href="">Comment Like</a></p>
+                                            <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
@@ -61,7 +61,7 @@ function Sports() {
                                             <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
-                                            <p><a href="">Comment Like</a></p>
+                                            <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                         </div>
                                     </div>
                                     <div className="col-md-6">
@@ -73,7 +73,7 @@ function Sports() {
                                             <a href="">Sports / <span className='currentDate'>Dec 8,2023</span></a>
                                             </div>
                                             <h4><a href="">Shall for rule whoses may heaven to</a></h4>
-                                            <p><a href="">Comment Like</a></p>
+                                            <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                         </div>
                                     </div>
                                 </div>

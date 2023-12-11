@@ -399,6 +399,46 @@
 
 @include md{
 
+    .sports{
+        &-header {
+            padding-bottom: 40px ;
+            h3 {
+                a {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+        &-left{
+            &-text{
+                padding: 25px;
+                .sub-heading{
+                    a{
+                        font-size: 11px;
+                    }
+                }
+                h4{
+                    a{
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+        &-right{
+            &-text{
+                .sub-heading{
+                    a{
+                        font-size: 11px;
+                    }
+                }
+                h4{
+                    a{
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
     .international{
         padding: 70px 0;
         &-header {
@@ -456,6 +496,31 @@
 
 @include lg{
 
+    .sports{
+        &-header {
+            padding-bottom: 50px ;
+            h3 {
+                a {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        &-left{
+            &-text{
+                padding: 30px;
+                .sub-heading{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+                h4{
+                    a{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
 
     .international{
         padding: 60px 0;
@@ -480,6 +545,17 @@
 }
 
 @include xl{
+
+    .sports{
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
     .international{
         padding: 80px 0;
     }
