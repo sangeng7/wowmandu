@@ -25,8 +25,6 @@
             &-left{
                 &-text{
                     width: 90%;
-                    right: -5%;
-                    bottom: 30px;
                     padding: 20px;
                     position: relative;
                     .sub-heading{
@@ -46,8 +44,6 @@
             }
             &-mid{
                 &-text{
-                    transform: translateY(50%);
-                    text-align: center;
                     h3{
                         a{
                             font-size: 1.2rem;
@@ -386,7 +382,6 @@
     }
 }
 
-
 @include sm{
 
     .header{
@@ -417,8 +412,6 @@
                     padding: 30px;
                     position: absolute;
                     bottom: 0;
-                    right: 0;
-                    background-color: #fff;
                     h3{
                         a{
                             font-size: 1.2rem;
@@ -426,17 +419,10 @@
                     }
                 }
             }
-            &-mid{
-                &-text{
-                    bottom: 50%;
-                }
-            }
             &-right{
                 &-text{
                 width: 80%;
                 padding: 20px 25px;
-                right: 10%;
-                margin: auto;
                     h6{
                         a{
                             font-size: 16px;
@@ -584,7 +570,15 @@
 
     .cards{
         &-top{
-           
+           &-left{
+            &-text{
+                h3{
+                    a{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+           }
             &-right{
                 &-text{
                     h6{
@@ -796,7 +790,7 @@
                     padding: 25px;
                     h3{
                         a{
-                            font-size: 1.2rem;
+                            font-size: 1.3rem;
 
                         }
                     }
@@ -808,7 +802,7 @@
                     padding: 30px;
                     h3{
                         a{
-                            font-size: 1.4rem;
+                            font-size: 1.3rem;
 
                         }
                     }
@@ -941,10 +935,10 @@
         &-top{
             &-left{
                 &-text{
-                    padding: 40px;
+                    padding: 30px;
                     h3{
                         a{
-                            font-size: 1.8rem;
+                            font-size: 1.5rem;
 
                         }
                     }
@@ -953,11 +947,10 @@
             }
             &-mid{
                 &-text{
-                    text-align: center;
                     padding: 30px;
                     h3{
                         a{
-                            font-size: 1.8rem;
+                            font-size: 1.5rem;
     
                         }
                     }

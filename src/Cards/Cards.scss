@@ -21,27 +21,25 @@
 
             &-text {
                 width: 80%;
-                padding: 40px;
+                padding: 30px;
                 position: absolute;
                 bottom: 0;
-                right: 0;
-                background-color: #fff;
 
                 .sub-heading{
                     a {
                         font-size: 12px;
-                        color: #ff7a7f;
+                        color: #fff;
     
                         &:hover {
-                            color: #797979;
+                            color: #ff7a7f;
                         }
                     }
                 }
                 h3 {
                     a{
-                        font-size: 1.8rem;
+                        font-size: 1.5rem;
                         font-weight: 600;
-                        color: #33353b;
+                        color: #fff;
                         &:hover{
                             color: #ff7a7f;
                         }
@@ -50,7 +48,7 @@
                 }
 
                 p {
-                    color: #797979;
+                    color: #fff;
                     font-weight: 600;
                 }
             }
@@ -75,10 +73,9 @@
 
             &-text {
                 width: 100%;
-                padding: 0 65px;
+                padding: 30px;
                 position: absolute;
-                bottom: 33%;
-                right: 0;
+                bottom: 0;
 
                 .sub-heading{
                     a {

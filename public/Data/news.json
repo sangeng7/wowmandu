@@ -1,0 +1,93 @@
+[
+    {
+      "id": 1,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/1.jpg",
+      "title": "Travels/Tour",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(25 reviews)",
+      "location": "Malaysia",
+      "price": 199.00
+
+    },
+    {
+      "id": 2,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/2.jpg",
+      "title": "Travels/Tour",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(23 reviews)",
+      "location": "Belgium",
+      "price": 200.00
+    },
+    {
+      "id": 3,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/3.jpg",
+      "title":"Lifestyle",
+      "disc":"The abundantly brought after day fish there image",
+      "review": "(22 reviews)",
+      "location": "France",
+      "price": 180.00
+    },
+    {
+      "id": 4,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/4.jpg",
+      "title": "Lifestyle",
+      "disc":"The abundantly brought after day fish there image",
+      "review": "(21 reviews)",
+      "location": "Switzerland",
+      "price": 199.00
+    },
+    {
+      "id": 5,
+      "img": "https://s3.envato.com/files/37396465/2009_02_28--20_01_03--2364.jpg",
+      "title": "Hotel-H5",
+      "disc":"This is a hotel",
+      "review": "(19 reviews)",
+      "location": "England",
+      "price": 330.00
+    },
+    {
+      "id": 6,
+      "img": "https://s3.envato.com/files/214055963/433.jpg",
+      "title": "Hotel-H6",
+      "disc":"This is a hotel",
+      "review": "(30 reviews)",
+      "location": "Wales",
+      "price": 240.00
+    },
+    {
+      "id": 7,
+      "img": "https://s3.envato.com/files/296836821/49251.jpg",
+      "title": "Hotel-H7",
+      "disc":"This is a hotel",
+      "review": "(38 reviews)",
+      "location": "Scotland",
+      "price": 299.00
+    },
+    {
+      "id": 8,
+      "img": "https://s3.envato.com/files/417660144/559650ce-cbe0-4c8f-ba00-bdd1cd9752ef.jpg",
+      "title": "Hotel-H8",
+      "disc":"This is a hotel",
+      "review": "(33 reviews)",
+      "location": "Dubai",
+      "price":299.00
+    },
+    {
+      "id": 9,
+      "img": "https://s3.envato.com/files/417659404/eb2dd323-63eb-430b-bcf2-ff5ef8af4aee.jpg",
+      "title": "Hotel-H9",
+      "disc":"This is a hotel",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 10,
+      "img": "https://s3.envato.com/files/412980829/dfe23ea5-1017-4f13-b3a4-78be664d4ab0.jpg",
+      "title": "Hotel-H10",
+      "disc":"This is a hotel",
+      "review": "(27 reviews)",
+      "location": "Singapore",
+      "price": 210.00
+    }
+  ]
