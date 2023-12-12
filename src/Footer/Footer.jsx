@@ -14,7 +14,7 @@ function Footer() {
                 <div className="container">
                     <div className="footer-top">
                         <div className="row g-4">
-                            <div className="col-lg-3 col-sm-6 col-md-6">
+                            <div className="footer-1 col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>About Us</h5>
                                 </div>
@@ -23,7 +23,7 @@ function Footer() {
                                     <img className='w-100' src="footerLogo.jpg" alt="" />
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-sm-6 col-md-6">
+                            <div className="footer-1 col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>Contact Info</h5>
                                 </div>
@@ -32,7 +32,7 @@ function Footer() {
                                 <p>Email : info@colorlib.com</p>
 
                             </div>
-                            <div className="col-lg-3 col-sm-6 col-md-6">
+                            <div className="footer-1 col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>Important Links</h5>
                                 </div>
@@ -44,7 +44,7 @@ function Footer() {
                                     <li className='mb-2'><p>Our Shop</p></li>
                                 </ul>
                             </div>
-                            <div className="col-lg-3 col-sm-6 col-md-6">
+                            <div className="footer-1 col-lg-3 col-sm-6 col-md-6">
                                 <div className="footer-top-header">
                                     <h5 className='mb-4'>Send Message</h5>
                                 </div>

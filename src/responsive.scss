@@ -325,25 +325,39 @@
             padding: 40px 0 30px 0;
             &-header{
                 h5{
-                    font-size: 1.05rem;
+                    font-size: 1rem;
                     margin-bottom: 14px !important;
                 }
             }
             p{
                 font-size: 13px;
+                margin-bottom: 10px !important;
             }
 
             &-logo {
-                width: 30%;
+                width: 50%;
                 margin: 25px auto 0;
             }
             .textarea{
                 input{
-                    font-size: 13px;
-                    padding: 5px 14px;
+                    font-size: 12px;
+                    padding: 5px 10px;
                 }
                 .send-icon{
-                    padding: 3px 16px 7px 16px;
+                    padding: 3px 15px 7px 13px;
+                    font-size: 12px;
+                }
+            }
+            .row{
+                .footer-1{
+                    width: 50%;
+                    ul{
+                        li{
+                            p{
+                                margin-bottom: 8px !important;
+                            }
+                        }
+                    }
                 }
             }
 
