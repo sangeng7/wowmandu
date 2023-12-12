@@ -82,52 +82,55 @@ function Cards() {
             <div className="cards-bottom">
                 <div className="container">
                     <div className="row g-4">
-
+                    {News.slice(4, 5).map((a) => (
                         <div className="col-lg-6  col-md-12">
                             <div className="cards-bottom-left">
                                 <div className="row">
                                     <div className="col-md-5 col-sm-5">
                                         <div className="cards-bottom-left-img">
-                                            <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/5.jpg" alt="" />
+                                            <img className='w-100' src={a.img} alt="" />
 
                                         </div>
                                     </div>
                                     <div className="col-md-7 col-sm-7">
                                         <div className="cards-bottom-left-text ">
                                             <div className="sub-heading">
-                                                <a className='' href="">TOURS & TRAVELS</a>
+                                                <a className='' href="">{a.title}</a>
                                             </div>
-                                            <h3 className='mt-2 mb-3'><a href="">Brought all day domi nion appear from subdue dominion firmament over face</a></h3>
+                                            <h3 className='mt-2 mb-3'><a href="">{a.disc}</a></h3>
                                             <p><span className='currentDate'>March 12 , 2019</span><span className='text-dark'> .By Alen Mark</span></p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    ))}
+                     {News.slice(5,7).map((a) => (
                         <div className="col-lg-3 col-md-6">
                             <div className="cards-bottom-right">
                                 <div className="cards-bottom-right-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/6.jpg" alt="" />
+                                    <img className='w-100' src={a.img} alt="" />
                                 </div>
                                 <div className="cards-bottom-right-text">
-                                    <a href="">Tours & Travel</a>
-                                    <h6 className='mb-3'><a href="">Abundantly forth late appear fourth us.</a></h6>
+                                    <a href="">{a.title}</a>
+                                    <h6 className='mb-3'><a href="">{a.disc}.</a></h6>
                                 </div>
                             </div>
 
                         </div>
-                        <div className="col-lg-3 col-md-6">
-                            <div className="cards-bottom-right">
-                                <div className="cards-bottom-right-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/7.jpg" alt="" />
-                                </div>
-                                <div className="cards-bottom-right-text">
-                                    <a href="">Tours & Travel</a>
-                                    <h6 className='mb-3'><a href="">Abundantly forth late appear fourth us.</a></h6>
-                                </div>
-                            </div>
+                        // <div className="col-lg-3 col-md-6">
+                        //     <div className="cards-bottom-right">
+                        //         <div className="cards-bottom-right-img">
+                        //             <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/7.jpg" alt="" />
+                        //         </div>
+                        //         <div className="cards-bottom-right-text">
+                        //             <a href="">Tours & Travel</a>
+                        //             <h6 className='mb-3'><a href="">Abundantly forth late appear fourth us.</a></h6>
+                        //         </div>
+                        //     </div>
 
-                        </div>
+                        // </div>
+                     ))}
                     </div>
 
 
