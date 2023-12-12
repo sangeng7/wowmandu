@@ -20,7 +20,6 @@ function Header() {
                                         <li className='mx-2 twt'><a href=""><FontAwesomeIcon className='icons' icon={faXTwitter} /></a></li>
                                         <li className='mx-2 gg'><a href=""><FontAwesomeIcon className='icons' icon={faGoogle} /></a></li>
                                         <li className='ms-2 lkd'><a href=""><FontAwesomeIcon className='icons' icon={faLinkedin} /></a></li>
-
                                     </ul>
                                 </div>
                             </div>
