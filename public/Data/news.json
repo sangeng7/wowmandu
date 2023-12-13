@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "img": "https://s3.envato.com/files/417660144/559650ce-cbe0-4c8f-ba00-bdd1cd9752ef.jpg",
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/15.jpg",
       "title": "Hotel-H8",
       "disc":"This is a hotel",
       "review": "(33 reviews)",
@@ -74,7 +74,7 @@
     },
     {
       "id": 9,
-      "img": "https://s3.envato.com/files/417659404/eb2dd323-63eb-430b-bcf2-ff5ef8af4aee.jpg",
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/16.jpg",
       "title": "Hotel-H9",
       "disc":"This is a hotel",
       "review": "(22 reviews)",
@@ -83,11 +83,185 @@
     },
     {
       "id": 10,
-      "img": "https://s3.envato.com/files/412980829/dfe23ea5-1017-4f13-b3a4-78be664d4ab0.jpg",
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/17.jpg",
       "title": "Hotel-H10",
       "disc":"This is a hotel",
       "review": "(27 reviews)",
       "location": "Singapore",
       "price": 210.00
+    },
+    {
+      "id": 11,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/15.jpg",
+      "title": "Hotel-H9",
+      "disc":"This is a hotel",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },{
+      "id": 12,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/16.jpg",
+      "title": "Hotel-H9",
+      "disc":"This is a hotel",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },{
+      "id": 13,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/17.jpg",
+      "title": "Hotel-H9",
+      "disc":"This is a hotel",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },{
+      "id": 14,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/8.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },{
+      "id": 15,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/9.jpg",
+      "title": "Tours & Travel",
+      "disc":"Light that hath itself god grass herb dark sea on the hath dowe",
+      "review": "Said spirit evening above good twes at god midst deep a wherein very made he seas male very broug sad forth saying right.",
+      "location": "Australia",
+      "price": 199.00
+    },{
+      "id": 16,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/10.jpg",
+      "title": "Tours & Travel",
+      "disc":"Light that hath itself god grass herb dark sea on the hath dowe",
+      "review": "Said spirit evening above good twes at god midst deep a wherein very made he seas male very broug sad forth saying right.",
+      "location": "Australia",
+      "price": 199.00
+    },{
+      "id": 17,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/11.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 18,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/12.jpg",
+      "title": "Tours & Travel",
+      "disc":"Blessed night morning on them you great",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 19,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/13.jpg",
+      "title": "Tours & Travel",
+      "disc":"Blessed night morning on them you great",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 20,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/14.jpg",
+      "title": "Tours & Travel",
+      "disc":"Blessed night morning on them you great",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 21,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/18.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 22,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/19.jpg",
+      "title": "Hotel-H9",
+      "disc":"Shall for rule whoses may heaven to",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 23,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/20.jpg",
+      "title": "Tours & Travel",
+      "disc":"Shall for rule whoses may heaven to",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 24,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/21.jpg",
+      "title": "Tours & Travel",
+      "disc":"Shall for rule whoses may heaven to",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 25,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/22.jpg",
+      "title": "Tours & Travel",
+      "disc":"Shall for rule whoses may heaven to",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 26,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/18.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 27,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/18.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 28,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/18.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 29,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/18.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
+    },
+    {
+      "id": 30,
+      "img": "https://preview.colorlib.com/theme/eden/img/magazine/18.jpg",
+      "title": "Tours & Travel",
+      "disc":"Created face stars sixth forth Earth firmament",
+      "review": "(22 reviews)",
+      "location": "Australia",
+      "price": 199.00
     }
   ]

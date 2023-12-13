@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+
+// import axios from 'axios'
+
 import './trending.scss'
 
 function Trending() {
+    // const [News, setNews] = useState([])
+    // useEffect(() => {
+    //     axios.get('Data/news.json')
+    //         .then(res => {
+    //             console.log(res.data);
+    //             setNews(res.data)
+    //         });
+    // }, [])
     return (
         <>
             <div className="trending">
@@ -11,92 +22,92 @@ function Trending() {
                         <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
                     </div>
                     <div className="owl-carousel">
-                        <div className="item">
-                            <div className="trending-card">
-                                <div className="trending-card-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/15.jpg" alt="" />
-                                </div>
-                                <div className="trending-card-text">
-                                    <div className="sub-heading">
-                                        <a href="">Travel</a>
+                            <div className="item">
+                                <div className="trending-card">
+                                    <div className="trending-card-img">
+                                        <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/15.jpg" alt="" />
                                     </div>
-                                    <h4><a href="">Blessed night morning on them you great</a></h4>
-                                    <p><a href="">Like Comment Share</a></p>
+                                    <div className="trending-card-text">
+                                        <div className="sub-heading">
+                                            <a href="">Travel</a>
+                                        </div>
+                                        <h4><a href="">Blessed night morning on them you great</a></h4>
+                                        <p><a href="">Like Comment Share</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="item">
-                            <div className="trending-card">
-                                <div className="trending-card-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/16.jpg" alt="" />
-                                </div>
-                                <div className="trending-card-text">
-                                    <div className="sub-heading">
-                                        <a href="">Travel</a>
+                            <div className="item">
+                                <div className="trending-card">
+                                    <div className="trending-card-img">
+                                        <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/16.jpg" alt="" />
                                     </div>
-                                    <h4><a href="">Blessed night morning on them you great</a></h4>
-                                    <p><a href="">Like Comment Share</a></p>
+                                    <div className="trending-card-text">
+                                        <div className="sub-heading">
+                                            <a href="">Travel</a>
+                                        </div>
+                                        <h4><a href="">Blessed night morning on them you great</a></h4>
+                                        <p><a href="">Like Comment Share</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="item">
-                            <div className="trending-card">
-                                <div className="trending-card-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/17.jpg" alt="" />
-                                </div>
-                                <div className="trending-card-text">
-                                    <div className="sub-heading">
-                                        <a href="">Travel</a>
+                            <div className="item">
+                                <div className="trending-card">
+                                    <div className="trending-card-img">
+                                        <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/17.jpg" alt="" />
                                     </div>
-                                    <h4><a href="">Blessed night morning on them you great</a></h4>
-                                    <p><a href="">Like Comment Share</a></p>
+                                    <div className="trending-card-text">
+                                        <div className="sub-heading">
+                                            <a href="">Travel</a>
+                                        </div>
+                                        <h4><a href="">Blessed night morning on them you great</a></h4>
+                                        <p><a href="">Like Comment Share</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="item">
-                            <div className="trending-card">
-                                <div className="trending-card-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/15.jpg" alt="" />
-                                </div>
-                                <div className="trending-card-text">
-                                    <div className="sub-heading">
-                                        <a href="">Travel</a>
+                            <div className="item">
+                                <div className="trending-card">
+                                    <div className="trending-card-img">
+                                        <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/15.jpg" alt="" />
                                     </div>
-                                    <h4><a href="">Blessed night morning on them you great</a></h4>
-                                    <p><a href="">Like Comment Share</a></p>
+                                    <div className="trending-card-text">
+                                        <div className="sub-heading">
+                                            <a href="">Travel</a>
+                                        </div>
+                                        <h4><a href="">Blessed night morning on them you great</a></h4>
+                                        <p><a href="">Like Comment Share</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="item">
-                            <div className="trending-card">
-                                <div className="trending-card-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/16.jpg" alt="" />
-                                </div>
-                                <div className="trending-card-text">
-                                    <div className="sub-heading">
-                                        <a href="">Travel</a>
+                            <div className="item">
+                                <div className="trending-card">
+                                    <div className="trending-card-img">
+                                        <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/16.jpg" alt="" />
                                     </div>
-                                    <h4><a href="">Blessed night morning on them you great</a></h4>
-                                    <p><a href="">Like Comment Share</a></p>
+                                    <div className="trending-card-text">
+                                        <div className="sub-heading">
+                                            <a href="">Travel</a>
+                                        </div>
+                                        <h4><a href="">Blessed night morning on them you great</a></h4>
+                                        <p><a href="">Like Comment Share</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="item">
-                            <div className="trending-card">
-                                <div className="trending-card-img">
-                                    <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/17.jpg" alt="" />
-                                </div>
-                                <div className="trending-card-text">
-                                    <div className="sub-heading">
-                                        <a href="">Travel</a>
+                            <div className="item">
+                                <div className="trending-card">
+                                    <div className="trending-card-img">
+                                        <img className='w-100' src="https://preview.colorlib.com/theme/eden/img/magazine/17.jpg" alt="" />
                                     </div>
-                                    <h4><a href="">Blessed night morning on them you great</a></h4>
-                                    <p><a href="">Like Comment Share</a></p>
+                                    <div className="trending-card-text">
+                                        <div className="sub-heading">
+                                            <a href="">Travel</a>
+                                        </div>
+                                        <h4><a href="">Blessed night morning on them you great</a></h4>
+                                        <p><a href="">Like Comment Share</a></p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-
                     </div>
+                   
 
                 </div>
             </div>
