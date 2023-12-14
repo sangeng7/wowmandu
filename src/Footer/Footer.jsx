@@ -60,18 +60,24 @@ function Footer() {
                     </div>
                     <div className="footer-bottom">
                         <div className="row">
-                            <div className="col-md-6 col-xs-12 ">
+                            <div className="col-md-4 col-xs-12 ">
                                 <div className="footer-bottom-left">
                                     <p>Copyright ©2023 All rights reserved</p>
+                                    
                                 </div>
                             </div>
-                            <div className="col-md-6 col-xs-12">
-                                <div className="footer-bottom-right text-end">
+                            <div className="col-md-4 col-xs-12">
+                                <div className="footer-bottom-right text-center">
                                     <p className='d-inline-block me-2 fb'><a href=""><FontAwesomeIcon icon={faFacebookF} /></a></p>
                                     <p className='d-inline-block mx-2 inst'><a href=""><FontAwesomeIcon icon={faInstagram} /></a></p>
                                     <p className='d-inline-block mx-2 twt'><a href=""><FontAwesomeIcon icon={faXTwitter} /></a></p>
                                     <p className='d-inline-block ms-2 gg'><a href=""><FontAwesomeIcon icon={faGoogle} /></a></p>
 
+                                </div>
+                            </div>
+                            <div className="col-md-4">
+                                <div className="footer-bottom-mid">
+                                    <p>Designed & Developed By WebEdge Info Tech</p>
                                 </div>
                             </div>
                         </div>

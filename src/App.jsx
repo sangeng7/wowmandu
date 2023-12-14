@@ -11,6 +11,10 @@ import Footer from './Footer/Footer'
 import ScrollTop from './ScrollTop/ScrollTop'
 import './responsive.scss'
 import InternationalChild from './InternationalChild/InternationalChild'
+import Admin from './Admin/Admin'
+import Forget from './Forget/Forget'
+import Reset from './Reset/Reset'
+import Change from './Change/Change'
 
 function App() {
   return (
@@ -26,6 +30,11 @@ function App() {
     <Footer/>
     <ScrollTop/>
     <InternationalChild/>
+    <Admin/>
+    <Forget/>
+    <Reset/>
+    <Change/>
+    
 
     </>
   )

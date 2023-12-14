@@ -368,6 +368,13 @@
 
             &-right {
                 text-align: center !important;
+                margin-bottom: 8px;
+
+            }
+
+            &-mid {
+                text-align: center;
+                margin-bottom: 8px;
             }
         }
     }
@@ -437,6 +444,208 @@
             }
         }
     }
+
+    .admin{
+        
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 70%;
+                padding: 16px 16px ;
+                margin: auto;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .admin-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                    h6{
+                        font-size: 0.7rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .forget{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 70%;
+                padding: 16px 16px ;
+                margin: auto;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .forget-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                    h6{
+                        font-size: 0.7rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reset{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 70%;
+                padding: 16px 16px ;
+                margin: auto;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .reset-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                    h6{
+                        font-size: 0.7rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .change{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 70%;
+                padding: 16px 16px ;
+                margin: auto;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .change-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.2rem;
+                    }
+                    h6{
+                        font-size: 0.7rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
 @include sm{
@@ -618,9 +827,210 @@
             width: 66.66%;
         }
     }
+
     .feeds{
         .col-md-4{
             width: 33.33%;
+        }
+    }
+
+    .admin{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 60%;
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .admin-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.7rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .forget{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 60%;
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .forget-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.7rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reset{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 60%;
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .reset-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.7rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .change{
+        .col-md-5{
+            width: 100%;
+            .logo{
+                width: 60%;
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            width: 100%;
+            .change-login{
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.7rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 25px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
         }
     }
     
@@ -847,6 +1257,9 @@
           &-right{
             text-align: center !important;
           }
+          &-mid{
+            text-align: center !important;
+          }
         }
     }
 
@@ -867,6 +1280,194 @@
             &-text{
                 p{
                     font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+    .admin{
+        .col-md-5{
+            .logo{
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            .admin-login{
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.8rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 50px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .forget{
+        .col-md-5{
+            .logo{
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            .forget-login{
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.8rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 50px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reset{
+        .col-md-5{
+            .logo{
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            .reset-login{
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.8rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 50px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .change{
+        .col-md-5{
+            .logo{
+                padding: 0 16px ;
+                margin: 0 auto 20px;
+            }
+        }
+        .col-md-7{
+            .change-login{
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+                &-header{
+                    padding: 16px 0;
+                    h4{
+                        font-size: 1.8rem;
+                    }
+                    h6{
+                        font-size: 0.8rem;
+                    }
+                }
+                &-form{
+                    padding: 50px 0;
+                    input{
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+                .submit{
+                    input{
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+                .forget-password{
+                    h6{
+                        a{
+                            font-size: 14px;
+                        }
+                    }
                 }
             }
         }
@@ -910,7 +1511,7 @@
             }
         }
     }
-    
+
     .interChild{
         &-left{
             &-header{
@@ -1063,6 +1664,218 @@
         &-top{
             &-logo{
                 width: 30%;
+            }
+        }
+    }
+
+    .admin{
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+        
+        .logo{
+            padding: 0 80px;
+            
+        }
+        &-login{
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+            &-header{
+                h4{
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+            &-form{
+                padding: 60px 0;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+            .submit{
+                text-align: center;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+            .forget-password{
+                h6{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .forget{
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+        
+        .logo{
+            padding: 0 80px;
+            
+        }
+        &-login{
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+            &-header{
+                h4{
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+            &-form{
+                padding: 60px 0;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+            .submit{
+                text-align: center;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+            .forget-password{
+                h6{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .reset{
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+        
+        .logo{
+            padding: 0 80px;
+            
+        }
+        &-login{
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+            &-header{
+                h4{
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+            &-form{
+                padding: 60px 0;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+            .submit{
+                text-align: center;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+            .forget-password{
+                h6{
+                    a{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .change{
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+        
+        .logo{
+            padding: 0 80px;
+            
+        }
+        &-login{
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+            &-header{
+                h4{
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+                h6{
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+            &-form{
+                padding: 60px 0;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+            .submit{
+                text-align: center;
+                input{
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+            .forget-password{
+                h6{
+                    a{
+                        color: #fff;
+                    }
+                }
             }
         }
     }

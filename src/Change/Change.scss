@@ -1,0 +1,52 @@
+.change{
+    padding: 80px 0;
+    background-color: #002428;
+    margin-bottom: 40px;
+    
+    .logo{
+        padding: 0 80px;
+        
+    }
+    &-login{
+        padding: 0 100px;
+        border-left: 2px solid #f0e9ff;
+        &-header{
+            h4{
+                font-size: 2.2rem;
+                color: #fff;
+                margin-bottom: 16px;
+            }
+            h6{
+                font-size: 0.8rem;
+                color: #fff;
+            }
+        }
+        &-form{
+            padding: 60px 0;
+            input{
+                margin-bottom: 20px;
+                padding: 8px 16px;
+                border-radius: 20px;
+            }
+        }
+        .submit{
+            text-align: center;
+            input{
+                margin-bottom: 20px;
+                padding: 8px 16px;
+                border-radius: 20px;
+                border: none;
+                color: #fff;
+                background-color: #f1444a;
+                width: 60%;
+            }
+        }
+        .forget-password{
+            h6{
+                a{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
