@@ -1,0 +1,121 @@
+.interChild{
+    padding: 60px 0;
+    &-left{
+        &-header{
+            h4{
+                a{
+                    color: #33353b;
+                    font-weight: 600;
+                    font-size: 2.2rem;
+                }
+            }
+            h6{
+                padding-bottom: 10px;
+                a{
+                    font-size: 16px;
+                    color: #999999;
+                }
+            }
+            .quote{
+                margin: 24px 0;
+                &-inner{
+                    background-color: #fff;
+                    padding:  0 20px;
+                    border-left: 2px solid #ff7a7f;
+                    p{
+                        font-size: 18px;
+                        margin-bottom: 14px;
+                        font-weight: 600;
+                    }
+                    h6{
+                        font-size: 16px;
+                        color: #797979;
+                    }
+                }
+            }
+        }
+        &-text{
+            
+            p{
+                font-size: 18px;
+                color: #797979;
+                margin-bottom: 16px;
+            }
+        }
+        &-img{
+            margin-bottom: 30px;
+        }
+    }
+    &-right{
+        .category{
+            padding: 25px;
+            background-color: #FBF9FF;
+            margin-bottom: 30px;
+            &-header{
+                h5{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-bottom: 25px;
+                    margin-bottom: 25px;
+                    border-bottom: 1px solid #f0e9ff;
+                }
+            }
+            &-items{
+                ul{
+                    li{
+                        padding-bottom: 12px;
+                        margin-bottom: 12px;
+                        border-bottom: 1px solid #f0e9ff;
+                        a{
+                            color: #797979;
+                        }
+                    }
+                }
+            }
+        }
+        .recent{
+            padding: 25px;
+            background-color: #FBF9FF;
+            margin-bottom: 30px;
+            &-header{
+                h5{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-bottom: 25px;
+                    margin-bottom: 35px;
+                    border-bottom: 1px solid #f0e9ff;
+                }
+            }
+            &-text{
+                h6{
+                    a{
+                        font-size: 16px;
+                        font-weight: 600;
+                    }
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .feeds{
+            padding: 25px;
+            background-color: #FBF9FF;
+            margin-bottom: 30px;
+            &-header{
+                h5{
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    padding-bottom: 25px;
+                    margin-bottom: 35px;
+                    border-bottom: 1px solid #f0e9ff;
+                }
+            }
+            &-items{
+                padding-bottom: 25px;
+            }
+        }
+        
+    }
+}

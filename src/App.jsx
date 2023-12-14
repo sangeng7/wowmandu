@@ -10,6 +10,7 @@ import International from './International/International'
 import Footer from './Footer/Footer'
 import ScrollTop from './ScrollTop/ScrollTop'
 import './responsive.scss'
+import InternationalChild from './InternationalChild/InternationalChild'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <International/>
     <Footer/>
     <ScrollTop/>
+    <InternationalChild/>
 
     </>
   )
