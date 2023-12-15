@@ -19,8 +19,11 @@ function Change() {
                                     <h6>Change Password</h6>
                                 </div>
                                 <div className="change-login-form text-center">
+                                    <input className='w-100' type="email"  placeholder='Enter your Email address'/>
                                     <input className='w-100' type="text" placeholder='Enter Old Password' />
                                     <input className='w-100' type="password" placeholder='Enter New Password' />
+                                    <input className='w-100' type="password" placeholder='Confirm New Password' />
+
                                 </div>
                                 <div className="submit">
                                     <input type="submit" value="Login" />
