@@ -15,7 +15,8 @@ function Trending() {
     // }, [])
     return (
         <>
-            <div className="trending">
+        <div id="trending">
+        <div className="trending">
                 <div className="container">
                     <div className="trending-header text-center">
                         <h3 className='mb-4'><a href="">Trending News</a></h3>
@@ -111,6 +112,8 @@ function Trending() {
 
                 </div>
             </div>
+        </div>
+            
         </>
     )
 }

@@ -14,7 +14,8 @@ function Picks() {
     }, [])
     return (
         <>
-            <div className="picks">
+        <div id="blog">
+        <div className="picks">
                 <div className="container">
                     <div className="picks-header text-center">
                         <h3 className='mb-4'><a href="">Editor Picks</a></h3>
@@ -65,6 +66,8 @@ function Picks() {
                     </div>
                 </div>
             </div>
+        </div>
+           
         </>
     )
 }

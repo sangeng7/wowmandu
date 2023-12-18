@@ -3,6 +3,9 @@ import './header.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGoogle, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
+import { Routes, Route, Link } from "react-router-dom";
+import All from '../All/All'
+import InternationalChild from '../InternationalChild/InternationalChild'
 
 
 function Header() {
@@ -44,17 +47,22 @@ function Header() {
                     <div className="container">
                         <div className="navbar text-center">
                             <div className="d-flex mx-auto">
-                                <li className='me-4'><a href="">Home</a></li>
+                                <li className='me-4'><Link to="/"><a href="">Home</a></Link></li>
                                 <li className='mx-4'><a href="">Categories</a></li>
                                 <li className='mx-4'><a href="">Archive</a></li>
-                                <li className='mx-4'><a href="">Blog</a></li>
-                                <li className='mx-4'><a href="">Latest news</a></li>
+                                <li className='mx-4'><a href="#blog">Blog</a></li>
+                                <li className='mx-4'><a href="#trending">Latest news</a></li>
                                 <li className='me-4'><a href="">Contact us</a></li>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <Routes>
+                <Route path="/" element={<All />} />
+                <Route path="/interChild" element={<InternationalChild />} />
+            </Routes>
         </>
     )
 }
