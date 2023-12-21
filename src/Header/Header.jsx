@@ -6,6 +6,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import { Routes, Route, Link } from "react-router-dom";
 import All from '../All/All'
 import InternationalChild from '../InternationalChild/InternationalChild'
+import Dashboard from '../Dashboard/Dashboard'
 
 
 function Header() {
@@ -62,6 +63,7 @@ function Header() {
             <Routes>
                 <Route path="/" element={<All />} />
                 <Route path="/interChild" element={<InternationalChild />} />
+                <Route path="/admin" element={<Dashboard />} />
             </Routes>
         </>
     )

@@ -2,72 +2,83 @@
 
 @include xs {
 
-    .header{
-        &-top{
-            .social-icons{
-                ul{
+    .header {
+        &-top {
+            .social-icons {
+                ul {
                     justify-content: center;
                 }
             }
-            .search{
+
+            .search {
                 display: none;
             }
         }
-        &-bottom{
+
+        &-bottom {
             display: none;
         }
     }
 
-    .cards{
-        
-        &-top{
+    .cards {
+
+        &-top {
             margin-bottom: 50px;
-            &-left{
-                &-text{
+
+            &-left {
+                &-text {
                     width: 90%;
                     padding: 20px;
                     position: relative;
-                    .sub-heading{
-                        a{
+
+                    .sub-heading {
+                        a {
                             font-size: 11px;
                         }
                     }
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 1.05rem;
                         }
                     }
-                    p{
+
+                    p {
                         font-size: 12px;
                     }
                 }
             }
-            &-mid{
-                &-text{
-                    h3{
-                        a{
+
+            &-mid {
+                &-text {
+                    h3 {
+                        a {
                             font-size: 1.2rem;
                         }
                     }
                 }
             }
-            &-right{
-                &-text{
+
+            &-right {
+                &-text {
                     padding: 5px 8px;
-                    h6{
-                        a{
+
+                    h6 {
+                        a {
                             font-size: 16px;
                         }
                     }
                 }
             }
         }
-        &-bottom{
-            &-left{
-                &-text{
+
+        &-bottom {
+            &-left {
+                &-text {
                     padding: 20px;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 16px;
                         }
                     }
@@ -76,10 +87,12 @@
         }
     }
 
-    .trending{
+    .trending {
         padding: 60px 0;
+
         &-header {
             padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.2rem;
@@ -90,13 +103,15 @@
                 font-size: 12px;
             }
         }
-        &-card{
-            &-text{
+
+        &-card {
+            &-text {
                 margin-top: 0;
                 right: 0;
                 padding: 20px;
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 16px;
                     }
                 }
@@ -134,11 +149,12 @@
             }
         }
 
-        &-right{
-            &-text{
-                p{
+        &-right {
+            &-text {
+                p {
                     font-size: 15px;
                 }
+
                 padding: 0 25px 0 0;
             }
         }
@@ -149,6 +165,7 @@
 
         &-header {
             padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.2rem;
@@ -189,6 +206,7 @@
 
         &-right {
             margin-bottom: 30px;
+
             &-text {
                 h4 {
                     a {
@@ -205,6 +223,7 @@
 
     .sports {
         padding: 60px 0;
+
         &-header {
             h3 {
                 a {
@@ -319,13 +338,15 @@
         &-top {
             text-align: center;
             padding: 40px 0 30px 0;
-            &-header{
-                h5{
+
+            &-header {
+                h5 {
                     font-size: 1rem;
                     margin-bottom: 14px !important;
                 }
             }
-            p{
+
+            p {
                 font-size: 13px;
                 margin-bottom: 10px !important;
             }
@@ -334,22 +355,26 @@
                 width: 50%;
                 margin: 25px auto 0;
             }
-            .textarea{
-                input{
+
+            .textarea {
+                input {
                     font-size: 12px;
                     padding: 5px 10px;
                 }
-                .send-icon{
+
+                .send-icon {
                     padding: 3px 15px 7px 13px;
                     font-size: 12px;
                 }
             }
-            .row{
-                .footer-1{
+
+            .row {
+                .footer-1 {
                     width: 50%;
-                    ul{
-                        li{
-                            p{
+
+                    ul {
+                        li {
+                            p {
                                 margin-bottom: 8px !important;
                             }
                         }
@@ -361,6 +386,7 @@
 
         &-bottom {
             font-size: 14px;
+
             &-left {
                 text-align: center;
                 margin-bottom: 8px;
@@ -388,106 +414,125 @@
         }
     }
 
-    .interChild{
-        &-left{
-            &-header{
-                h4{
-                    a{
+    .interChild {
+        &-left {
+            &-header {
+                h4 {
+                    a {
                         font-size: 1.25rem !important;
                     }
                 }
             }
-            .quote{
+
+            .quote {
                 margin: 18px 0 !important;
-                &-inner{
-                    p{
+
+                &-inner {
+                    p {
                         font-size: 14px !important;
                     }
                 }
             }
-            &-text{
-                p{
+
+            &-text {
+                p {
                     font-size: 15px !important;
                 }
             }
         }
-        &-right{
-            .category{
+
+        &-right {
+            .category {
                 padding: 18px !important;
-                &-header{
-                    h5{
+
+                &-header {
+                    h5 {
                         font-size: 1.1rem;
                         margin-bottom: 18px;
                         padding-bottom: 18px;
                     }
                 }
-                ul{
-                    li{
-                        a{
+
+                ul {
+                    li {
+                        a {
                             font-size: 1rem;
                         }
                     }
                 }
             }
-            .recent{
+
+            .recent {
                 padding: 18px !important;
-                &-header{
-                    h5{
+
+                &-header {
+                    h5 {
                         font-size: 1.1rem;
                         margin-bottom: 18px;
                         padding-bottom: 18px;
                     }
                 }
-                &-text{
+
+                &-text {
                     margin-top: 18px;
                 }
             }
         }
     }
 
-    .admin{
-        
-        .col-md-5{
+    .admin {
+
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 70%;
-                padding: 16px 16px ;
+                padding: 16px 16px;
                 margin: auto;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .admin-login{
+
+            .admin-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.2rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.7rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 3px 8px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -496,48 +541,58 @@
         }
     }
 
-    .forget{
-        .col-md-5{
+    .forget {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 70%;
-                padding: 16px 16px ;
+                padding: 16px 16px;
                 margin: auto;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .forget-login{
+
+            .forget-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.2rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.7rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 3px 8px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -546,48 +601,58 @@
         }
     }
 
-    .reset{
-        .col-md-5{
+    .reset {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 70%;
-                padding: 16px 16px ;
+                padding: 16px 16px;
                 margin: auto;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .reset-login{
+
+            .reset-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.2rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.7rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 3px 8px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -596,50 +661,708 @@
         }
     }
 
-    .change{
-        .col-md-5{
+    .change {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 70%;
-                padding: 16px 16px ;
+                padding: 16px 16px;
                 margin: auto;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .change-login{
+
+            .change-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.2rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.7rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 3px 8px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .dashboard {
+        .gc--1-of-3 {
+            width: 30%;
+            padding: 0 8px;
+
+            .dash-logo {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .menu {
+                div {
+                    padding: 6px 12px !important;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+
+                    .light {
+                        height: 5px;
+                        width: 5px;
+                        top: 17px;
+                        left: 3px;
+                    }
+                }
+            }
+        }
+
+        .gc--2-of-3 {
+            width: 70%;
+
+            ul {
+                li {
+                    .cards {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-top {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-right-top {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-right-bottom {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                        }
+
+                        &-bottom {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                        }
+                    }
+
+                    .trending {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-card {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .picks {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .travel {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .sports {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .international {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .banner {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-img {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        
                     }
                 }
             }
@@ -648,61 +1371,69 @@
 
 }
 
-@include sm{
+@include sm {
 
-    .header{
-        &-top{
-            .social-icons{
-                ul{
+    .header {
+        &-top {
+            .social-icons {
+                ul {
                     justify-content: center;
                 }
-             
+
             }
-            .logo{
+
+            .logo {
                 width: 60%;
             }
-            .search{
+
+            .search {
                 display: none;
             }
         }
-        &-bottom{
+
+        &-bottom {
             display: none;
         }
     }
 
-    .cards{
-        &-top{
-            &-left{
-                &-text{
+    .cards {
+        &-top {
+            &-left {
+                &-text {
                     width: 90%;
                     padding: 30px;
                     position: absolute;
                     bottom: 0;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 1.2rem;
                         }
                     }
                 }
             }
-            &-right{
-                &-text{
-                width: 80%;
-                padding: 20px 25px;
-                    h6{
-                        a{
+
+            &-right {
+                &-text {
+                    width: 80%;
+                    padding: 20px 25px;
+
+                    h6 {
+                        a {
                             font-size: 16px;
                         }
                     }
                 }
             }
         }
-        &-bottom{
-            &-left{
-                &-text{
+
+        &-bottom {
+            &-left {
+                &-text {
                     padding: 25px;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 18px;
                         }
                     }
@@ -711,21 +1442,23 @@
         }
     }
 
-    .trending{
-        &-header{
-            h3{
-                a{
+    .trending {
+        &-header {
+            h3 {
+                a {
                     font-size: 1.4rem;
                 }
             }
         }
-        &-card{
-            &-text{
+
+        &-card {
+            &-text {
                 padding: 20px 5px;
                 width: 100%;
                 right: 0;
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1.2rem;
                     }
                 }
@@ -733,9 +1466,10 @@
         }
     }
 
-    .picks{
+    .picks {
         &-header {
-            padding-bottom: 40px ;
+            padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.4rem;
@@ -744,10 +1478,12 @@
         }
     }
 
-    .travel{
+    .travel {
         padding: 70px 0;
+
         &-header {
-            padding-bottom: 40px ;
+            padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.4rem;
@@ -756,40 +1492,47 @@
         }
     }
 
-    .sports{
+    .sports {
         padding: 70px 0;
+
         &-header {
-            padding-bottom: 40px ;
+            padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.4rem;
                 }
             }
         }
-        &-left{
-            &-text{
+
+        &-left {
+            &-text {
                 padding: 25px;
-                .sub-heading{
-                    a{
+
+                .sub-heading {
+                    a {
                         font-size: 11px;
                     }
                 }
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1.1rem;
                     }
                 }
             }
         }
-        &-right{
-            &-text{
-                .sub-heading{
-                    a{
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
                         font-size: 11px;
                     }
                 }
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1rem;
                     }
                 }
@@ -797,10 +1540,12 @@
         }
     }
 
-    .international{
+    .international {
         padding: 70px 0;
+
         &-header {
-            padding-bottom: 40px ;
+            padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.4rem;
@@ -809,73 +1554,85 @@
         }
     }
 
-    .footer{
-        &-top{
+    .footer {
+        &-top {
             text-align: center;
-            &-logo{
+
+            &-logo {
                 width: 25%;
-                margin:  25px auto;
+                margin: 25px auto;
             }
         }
     }
 
-    .recent{
-        .col-md-4{
+    .recent {
+        .col-md-4 {
             width: 33.33%;
         }
-        .col-md-8{
+
+        .col-md-8 {
             width: 66.66%;
         }
     }
 
-    .feeds{
-        .col-md-4{
+    .feeds {
+        .col-md-4 {
             width: 33.33%;
         }
     }
 
-    .admin{
-        .col-md-5{
+    .admin {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 60%;
-                padding: 0 16px ;
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .admin-login{
+
+            .admin-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.7rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 5px 10px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -884,48 +1641,58 @@
         }
     }
 
-    .forget{
-        .col-md-5{
+    .forget {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 60%;
-                padding: 0 16px ;
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .forget-login{
+
+            .forget-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.7rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 5px 10px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -934,48 +1701,58 @@
         }
     }
 
-    .reset{
-        .col-md-5{
+    .reset {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 60%;
-                padding: 0 16px ;
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .reset-login{
+
+            .reset-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.7rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 5px 10px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -984,48 +1761,58 @@
         }
     }
 
-    .change{
-        .col-md-5{
+    .change {
+        .col-md-5 {
             width: 100%;
-            .logo{
+
+            .logo {
                 width: 60%;
-                padding: 0 16px ;
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
+
+        .col-md-7 {
             width: 100%;
-            .change-login{
+
+            .change-login {
                 border-top: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.7rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 25px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 5px 10px;
                         border-radius: 20px;
                         font-size: 14px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 6px 12px;
                         font-size: 14px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 13px;
                         }
                     }
@@ -1033,68 +1820,74 @@
             }
         }
     }
-    
+
 }
 
-@include md{
+@include md {
 
-    .header{
-        &-top{
-            .search{
+    .header {
+        &-top {
+            .search {
                 display: none;
             }
         }
-        &-bottom{
+
+        &-bottom {
             display: none;
         }
     }
 
-    .cards{
-        &-top{
-           &-left{
-            &-text{
-                h3{
-                    a{
-                        font-size: 1.2rem;
+    .cards {
+        &-top {
+            &-left {
+                &-text {
+                    h3 {
+                        a {
+                            font-size: 1.2rem;
+                        }
                     }
                 }
             }
-           }
-            &-right{
-                &-text{
-                    h6{
-                        a{
+
+            &-right {
+                &-text {
+                    h6 {
+                        a {
                             font-size: 18px;
                         }
                     }
                 }
             }
         }
-        &-bottom{
-            &-left{
-                &-text{
+
+        &-bottom {
+            &-left {
+                &-text {
                     padding: 25px 10px 20px 0;
                 }
             }
         }
     }
 
-    .trending{
+    .trending {
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 1.8rem;
                 }
             }
         }
-        &-card{
-            &-text{
+
+        &-card {
+            &-text {
                 padding: 5px;
                 width: 100%;
                 right: 0;
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1.2rem;
                     }
                 }
@@ -1103,103 +1896,121 @@
 
     }
 
-    .picks{
+    .picks {
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 1.8rem;
                 }
             }
         }
-        &-left{
-            &-text{
+
+        &-left {
+            &-text {
                 padding: 25px;
                 width: 90%;
-                .sub-heading{
-                    a{
+
+                .sub-heading {
+                    a {
                         font-size: 11px;
                     }
 
                 }
-                h3{
-                    a{
+
+                h3 {
+                    a {
                         font-size: 1.1rem;
                     }
                 }
-                p{
+
+                p {
                     font-size: 14px;
                 }
             }
         }
     }
 
-    .travel{
+    .travel {
         padding: 70px 0;
+
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 1.8rem;
                 }
             }
         }
+
         &-left {
             &-text {
                 margin-top: -30px;
                 padding: 30px;
-                .sub-heading{
-                    a{
+
+                .sub-heading {
+                    a {
                         font-size: 13px;
                     }
                 }
-                h3{
+
+                h3 {
                     font-size: 1.2rem;
                 }
             }
         }
-        &-right{
+
+        &-right {
             margin-top: 30px;
-            .row{
+
+            .row {
                 margin-bottom: 30px;
             }
         }
 
     }
 
-    .sports{
+    .sports {
         &-header {
-            padding-bottom: 40px ;
+            padding-bottom: 40px;
+
             h3 {
                 a {
                     font-size: 1.6rem;
                 }
             }
         }
-        &-left{
-            &-text{
+
+        &-left {
+            &-text {
                 padding: 25px;
-                .sub-heading{
-                    a{
+
+                .sub-heading {
+                    a {
                         font-size: 11px;
                     }
                 }
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1.1rem;
                     }
                 }
             }
         }
-        &-right{
-            &-text{
-                .sub-heading{
-                    a{
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
                         font-size: 11px;
                     }
                 }
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1rem;
                     }
                 }
@@ -1207,123 +2018,143 @@
         }
     }
 
-    .international{
+    .international {
         padding: 70px 0;
+
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 1.8rem;
                 }
             }
         }
+
         &-left {
             &-text {
                 margin-top: -30px;
                 padding: 30px;
-                .sub-heading{
-                    a{
+
+                .sub-heading {
+                    a {
                         font-size: 13px;
                     }
                 }
-                h3{
+
+                h3 {
                     font-size: 1.2rem;
                 }
             }
         }
-        &-right{
+
+        &-right {
             margin-top: 30px;
-            .row{
+
+            .row {
                 margin-bottom: 30px;
             }
         }
 
     }
 
-    .footer{
+    .footer {
 
-        &-top{
+        &-top {
             padding: 60px 0 40px 0;
-            &-logo{
+
+            &-logo {
                 width: 45%;
             }
         }
 
-        &-bottom{
-          &-left{
-            text-align: center;
-            margin-bottom: 10px;
-          }
-          &-right{
-            text-align: center !important;
-          }
-          &-mid{
-            text-align: center !important;
-          }
+        &-bottom {
+            &-left {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+            &-right {
+                text-align: center !important;
+            }
+
+            &-mid {
+                text-align: center !important;
+            }
         }
     }
 
-    .interChild{
-        &-left{
-            &-header{
-                h4{
-                    a{
+    .interChild {
+        &-left {
+            &-header {
+                h4 {
+                    a {
                         font-size: 1.9rem !important;
                     }
                 }
             }
-            .quote-inner{
-                p{
+
+            .quote-inner {
+                p {
                     font-size: 16px;
                 }
             }
-            &-text{
-                p{
+
+            &-text {
+                p {
                     font-size: 16px !important;
                 }
             }
         }
     }
 
-    .admin{
-        .col-md-5{
-            .logo{
-                padding: 0 16px ;
+    .admin {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
-            .admin-login{
+
+        .col-md-7 {
+            .admin-login {
                 border-left: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.8rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 50px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 8px 16px;
                         border-radius: 20px;
                         font-size: 16px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 8px 16px;
                         font-size: 16px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 14px;
                         }
                     }
@@ -1332,45 +2163,53 @@
         }
     }
 
-    .forget{
-        .col-md-5{
-            .logo{
-                padding: 0 16px ;
+    .forget {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
-            .forget-login{
+
+        .col-md-7 {
+            .forget-login {
                 border-left: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.8rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 50px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 8px 16px;
                         border-radius: 20px;
                         font-size: 16px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 8px 16px;
                         font-size: 16px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 14px;
                         }
                     }
@@ -1379,45 +2218,53 @@
         }
     }
 
-    .reset{
-        .col-md-5{
-            .logo{
-                padding: 0 16px ;
+    .reset {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
-            .reset-login{
+
+        .col-md-7 {
+            .reset-login {
                 border-left: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.8rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 50px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 8px 16px;
                         border-radius: 20px;
                         font-size: 16px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 8px 16px;
                         font-size: 16px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 14px;
                         }
                     }
@@ -1426,45 +2273,53 @@
         }
     }
 
-    .change{
-        .col-md-5{
-            .logo{
-                padding: 0 16px ;
+    .change {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
                 margin: 0 auto 20px;
             }
         }
-        .col-md-7{
-            .change-login{
+
+        .col-md-7 {
+            .change-login {
                 border-left: 1px solid #f0e9ff;
                 border-left: 0;
                 padding: 10px 18px;
-                &-header{
+
+                &-header {
                     padding: 16px 0;
-                    h4{
+
+                    h4 {
                         font-size: 1.8rem;
                     }
-                    h6{
+
+                    h6 {
                         font-size: 0.8rem;
                     }
                 }
-                &-form{
+
+                &-form {
                     padding: 50px 0;
-                    input{
+
+                    input {
                         margin-bottom: 20px;
                         padding: 8px 16px;
                         border-radius: 20px;
                         font-size: 16px;
                     }
                 }
-                .submit{
-                    input{
+
+                .submit {
+                    input {
                         padding: 8px 16px;
                         font-size: 16px;
                     }
                 }
-                .forget-password{
-                    h6{
-                        a{
+
+                .forget-password {
+                    h6 {
+                        a {
                             font-size: 14px;
                         }
                     }
@@ -1472,30 +2327,474 @@
             }
         }
     }
-    
+
+    .dashboard {
+        .gc--1-of-3 {
+            width: 30%;
+            padding: 0 8px;
+
+            .dash-logo {
+                width: 100%;
+                margin-bottom: 25px;
+            }
+
+            .menu {
+                div {
+                    padding: 8px 20px !important;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+
+                    .light {
+                        height: 5px;
+                        width: 5px;
+                        top: 17px;
+                        left: 8px;
+                    }
+                }
+            }
+        }
+
+        .gc--2-of-3 {
+            width: 70%;
+
+            ul {
+                li {
+                    .cards {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-top {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-top {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-bottom {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+
+                        &-bottom {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+
+                    .trending {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .picks {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .travel {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .sports {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .international {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .banner {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }
 
-@include lg{
+@include lg {
 
-    .cards{
-        &-top{
-            &-left{
-                &-text{
+    .cards {
+        &-top {
+            &-left {
+                &-text {
                     padding: 25px;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 1.3rem;
 
                         }
                     }
                 }
             }
-            &-mid{
-                &-text{
+
+            &-mid {
+                &-text {
                     text-align: center;
                     padding: 30px;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 1.3rem;
 
                         }
@@ -1503,55 +2802,61 @@
                 }
             }
         }
-        &-bottom{
-            &-left{
-                &-text{
+
+        &-bottom {
+            &-left {
+                &-text {
                     top: 20%;
                 }
             }
         }
     }
 
-    .interChild{
-        &-left{
-            &-header{
-                h4{
-                    a{
+    .interChild {
+        &-left {
+            &-header {
+                h4 {
+                    a {
                         font-size: 1.7rem !important;
                     }
                 }
             }
-            &-text{
-                p{
+
+            &-text {
+                p {
                     font-size: 16px;
                 }
             }
         }
-        &-right{
-            .category{
-                &-header{
-                    h5{
+
+        &-right {
+            .category {
+                &-header {
+                    h5 {
                         font-size: 1.3rem !important;
                     }
                 }
             }
-            .recent{
-                &-header{
-                    h5{
+
+            .recent {
+                &-header {
+                    h5 {
                         font-size: 1.3rem !important;
                     }
                 }
-                &-text{
-                    h6{
-                        a{
+
+                &-text {
+                    h6 {
+                        a {
                             font-size: 16px !important;
                         }
                     }
                 }
             }
-            .feeds{
-                &-header{
-                    h5{
+
+            .feeds {
+                &-header {
+                    h5 {
                         font-size: 1.3rem !important;
                     }
                 }
@@ -1559,22 +2864,25 @@
         }
     }
 
-    .trending{
+    .trending {
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 2rem;
                 }
             }
         }
-        &-card{
-            &-text{
+
+        &-card {
+            &-text {
                 padding: 10px 5px;
                 width: 100%;
                 right: 0;
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1.4rem;
                     }
                 }
@@ -1583,10 +2891,12 @@
 
     }
 
-    .picks{
+    .picks {
         padding-bottom: 50px;
+
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 2rem;
@@ -1595,44 +2905,51 @@
         }
     }
 
-    .travel{
+    .travel {
         padding: 60px 0;
-        &-header{
-            h3{
-                a{
+
+        &-header {
+            h3 {
+                a {
                     font-size: 2rem;
                 }
             }
         }
-        &-left{
-            &-text{
+
+        &-left {
+            &-text {
                 padding: 30px;
             }
         }
-        &-right{
+
+        &-right {
             margin-top: 30px;
         }
     }
 
-    .sports{
+    .sports {
         &-header {
-            padding-bottom: 50px ;
+            padding-bottom: 50px;
+
             h3 {
                 a {
                     font-size: 2rem;
                 }
             }
         }
-        &-left{
-            &-text{
+
+        &-left {
+            &-text {
                 padding: 30px;
-                .sub-heading{
-                    a{
+
+                .sub-heading {
+                    a {
                         font-size: 12px;
                     }
                 }
-                h4{
-                    a{
+
+                h4 {
+                    a {
                         font-size: 1.2rem;
                     }
                 }
@@ -1640,68 +2957,78 @@
         }
     }
 
-    .international{
+    .international {
         padding: 60px 0;
-        &-header{
-            h3{
-                a{
+
+        &-header {
+            h3 {
+                a {
                     font-size: 2rem;
 
                 }
             }
         }
-        &-left{
-            &-text{
+
+        &-left {
+            &-text {
                 padding: 30px;
             }
         }
-        &-right{
+
+        &-right {
             margin-top: 30px;
         }
     }
 
-    .footer{
-        &-top{
-            &-logo{
+    .footer {
+        &-top {
+            &-logo {
                 width: 30%;
             }
         }
     }
 
-    .admin{
+    .admin {
         padding: 80px 0;
         background-color: #002428;
         margin-bottom: 40px;
-        
-        .logo{
+
+        .logo {
             padding: 0 80px;
-            
+
         }
-        &-login{
+
+        &-login {
             padding: 10px 30px !important;
             border-left: 2px solid #f0e9ff !important;
-            &-header{
-                h4{
+
+            &-header {
+                h4 {
                     font-size: 2.2rem;
                     color: #fff;
                     margin-bottom: 16px;
                 }
-                h6{
+
+                h6 {
                     font-size: 0.8rem;
                     color: #fff;
                 }
             }
-            &-form{
+
+            &-form {
                 padding: 60px 0;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
                 }
             }
-            .submit{
+
+            .submit {
                 text-align: center;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
@@ -1711,9 +3038,10 @@
                     width: 60%;
                 }
             }
-            .forget-password{
-                h6{
-                    a{
+
+            .forget-password {
+                h6 {
+                    a {
                         color: #fff;
                     }
                 }
@@ -1721,40 +3049,47 @@
         }
     }
 
-    .forget{
+    .forget {
         padding: 80px 0;
         background-color: #002428;
         margin-bottom: 40px;
-        
-        .logo{
+
+        .logo {
             padding: 0 80px;
-            
+
         }
-        &-login{
+
+        &-login {
             padding: 10px 30px !important;
             border-left: 2px solid #f0e9ff !important;
-            &-header{
-                h4{
+
+            &-header {
+                h4 {
                     font-size: 2.2rem;
                     color: #fff;
                     margin-bottom: 16px;
                 }
-                h6{
+
+                h6 {
                     font-size: 0.8rem;
                     color: #fff;
                 }
             }
-            &-form{
+
+            &-form {
                 padding: 60px 0;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
                 }
             }
-            .submit{
+
+            .submit {
                 text-align: center;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
@@ -1764,9 +3099,10 @@
                     width: 60%;
                 }
             }
-            .forget-password{
-                h6{
-                    a{
+
+            .forget-password {
+                h6 {
+                    a {
                         color: #fff;
                     }
                 }
@@ -1774,40 +3110,47 @@
         }
     }
 
-    .reset{
+    .reset {
         padding: 80px 0;
         background-color: #002428;
         margin-bottom: 40px;
-        
-        .logo{
+
+        .logo {
             padding: 0 80px;
-            
+
         }
-        &-login{
+
+        &-login {
             padding: 10px 30px !important;
             border-left: 2px solid #f0e9ff !important;
-            &-header{
-                h4{
+
+            &-header {
+                h4 {
                     font-size: 2.2rem;
                     color: #fff;
                     margin-bottom: 16px;
                 }
-                h6{
+
+                h6 {
                     font-size: 0.8rem;
                     color: #fff;
                 }
             }
-            &-form{
+
+            &-form {
                 padding: 60px 0;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
                 }
             }
-            .submit{
+
+            .submit {
                 text-align: center;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
@@ -1817,9 +3160,10 @@
                     width: 60%;
                 }
             }
-            .forget-password{
-                h6{
-                    a{
+
+            .forget-password {
+                h6 {
+                    a {
                         color: #fff;
                     }
                 }
@@ -1827,40 +3171,47 @@
         }
     }
 
-    .change{
+    .change {
         padding: 80px 0;
         background-color: #002428;
         margin-bottom: 40px;
-        
-        .logo{
+
+        .logo {
             padding: 0 80px;
-            
+
         }
-        &-login{
+
+        &-login {
             padding: 10px 30px !important;
             border-left: 2px solid #f0e9ff !important;
-            &-header{
-                h4{
+
+            &-header {
+                h4 {
                     font-size: 2.2rem;
                     color: #fff;
                     margin-bottom: 16px;
                 }
-                h6{
+
+                h6 {
                     font-size: 0.8rem;
                     color: #fff;
                 }
             }
-            &-form{
+
+            &-form {
                 padding: 60px 0;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
                 }
             }
-            .submit{
+
+            .submit {
                 text-align: center;
-                input{
+
+                input {
                     margin-bottom: 20px;
                     padding: 6px 12px;
                     border-radius: 20px;
@@ -1870,81 +3221,722 @@
                     width: 60%;
                 }
             }
-            .forget-password{
-                h6{
-                    a{
+
+            .forget-password {
+                h6 {
+                    a {
                         color: #fff;
                     }
                 }
             }
         }
     }
-    
+
+    .dashboard {
+        .gc--1-of-3 {
+            width: 30%;
+            padding: 16px 16px;
+
+            .dash-logo {
+                width: 80%;
+                margin-bottom: 25px;
+            }
+
+            .menu {
+                div {
+                    padding: 10px 20px !important;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    font-weight: 600;
+
+                    .light {
+                        height: 5px;
+                        width: 5px;
+                        top: 17px;
+                        left: 8px;
+                    }
+                }
+            }
+        }
+
+        .gc--2-of-3 {
+            width: 70%;
+
+            ul {
+                li {
+                    .cards {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-top {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-top {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-bottom {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+
+                        &-bottom {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+
+                    .trending {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-card {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .picks {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .travel {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .row{
+                                margin-bottom: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .sports {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .row{
+                                margin-bottom: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .international {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .row{
+                                margin-bottom: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .banner {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-img {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
 }
 
-@include xl{
+@include xl {
 
-    .cards{
-        &-top{
-            &-left{
-                &-text{
+    .cards {
+        &-top {
+            &-left {
+                &-text {
                     padding: 30px;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 1.5rem;
 
                         }
                     }
                 }
-                
+
             }
-            &-mid{
-                &-text{
+
+            &-mid {
+                &-text {
                     padding: 30px;
-                    h3{
-                        a{
+
+                    h3 {
+                        a {
                             font-size: 1.5rem;
-    
+
                         }
                     }
                 }
             }
-            &-right{
-                &-text{
+
+            &-right {
+                &-text {
                     padding: 8px 10px;
                 }
             }
         }
-        &-bottom{
-            &-left{
-                &-text{
+
+        &-bottom {
+            &-left {
+                &-text {
                     top: 0;
                 }
             }
-            &-right{
-                &-text{
-                    h6{
+
+            &-right {
+                &-text {
+                    h6 {
                         font-size: 20px;
                     }
                 }
             }
         }
-        
+
     }
 
-    .picks{
-        &-left{
-            &-text{
+    .picks {
+        &-left {
+            &-text {
                 padding: 30px;
             }
         }
     }
 
-    .travel{
+    .travel {
         padding: 80px 0;
     }
 
-    .sports{
+    .sports {
         &-header {
             h3 {
                 a {
@@ -1954,7 +3946,7 @@
         }
     }
 
-    .international{
+    .international {
         padding: 80px 0;
     }
 }

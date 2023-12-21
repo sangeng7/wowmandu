@@ -12,11 +12,13 @@ function All() {
     <>
     <Cards/>
     <Trending/>
-    <Picks/>
     <Banner/>
+    <Picks/>
     <Travel/>
+    <Banner/>
     <Sports/>
     <International/>
+    <Banner/>
     </>
   )
 }

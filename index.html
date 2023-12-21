@@ -42,21 +42,21 @@
         dots: false,
         nav: false,
         autoplayTimeout: 3000,
-        responsive:{
-        0:{
+        responsive: {
+          0: {
             items: 1,
             nav: true
-        },
-        600:{
+          },
+          600: {
             items: 2,
             nav: false
-        },
-        1000:{
+          },
+          1000: {
             items: 3,
             nav: true,
             loop: false
+          }
         }
-    }
       });
     });
 
@@ -86,6 +86,23 @@
 
       // Update the date every second (you can adjust the interval as needed)
       setInterval(updateDate, 1000);
+    });
+
+    $(document).on("click", ".naccs .menu div", function () {
+      var numberIndex = $(this).index();
+
+      if (!$(this).is("active")) {
+        $(".naccs .menu div").removeClass("active");
+        $(".naccs ul li").removeClass("active");
+
+        $(this).addClass("active");
+        $(".naccs ul").find("li:eq(" + numberIndex + ")").addClass("active");
+
+        var listItemHeight = $(".naccs ul")
+          .find("li:eq(" + numberIndex + ")")
+          .innerHeight();
+        $(".naccs ul").height(listItemHeight + "px");
+      }
     });
 
 
