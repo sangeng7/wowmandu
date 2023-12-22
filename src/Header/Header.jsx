@@ -7,6 +7,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import All from '../All/All'
 import InternationalChild from '../InternationalChild/InternationalChild'
 import Dashboard from '../Dashboard/Dashboard'
+import Admin from '../Admin/Admin'
 
 
 function Header() {
@@ -64,6 +65,7 @@ function Header() {
                 <Route path="/" element={<All />} />
                 <Route path="/interChild" element={<InternationalChild />} />
                 <Route path="/admin" element={<Dashboard />} />
+                <Route path="/login"element={<Admin />} />
             </Routes>
         </>
     )
