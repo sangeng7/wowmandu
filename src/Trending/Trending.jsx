@@ -1,28 +1,18 @@
 import React, { useEffect, useState } from 'react'
-
-// import axios from 'axios'
-
 import './trending.scss'
 
 function Trending() {
-    // const [News, setNews] = useState([])
-    // useEffect(() => {
-    //     axios.get('Data/news.json')
-    //         .then(res => {
-    //             console.log(res.data);
-    //             setNews(res.data)
-    //         });
-    // }, [])
+
     return (
         <>
-        <div id="trending">
-        <div className="trending">
-                <div className="container">
-                    <div className="trending-header text-center">
-                        <h3 className='mb-4'><a href="">Trending News</a></h3>
-                        <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
-                    </div>
-                    <div className="owl-carousel">
+            <div id="trending">
+                <div className="trending">
+                    <div className="container">
+                        <div className="trending-header text-center">
+                            <h3 className='mb-4'><a href="">Trending News</a></h3>
+                            <p>Abundantly creeping saw forth spirit can made appear fourth us.</p>
+                        </div>
+                        <div className="owl-carousel">
                             <div className="item">
                                 <div className="trending-card">
                                     <div className="trending-card-img">
@@ -107,13 +97,11 @@ function Trending() {
                                     </div>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                   
-
                 </div>
             </div>
-        </div>
-            
+
         </>
     )
 }
