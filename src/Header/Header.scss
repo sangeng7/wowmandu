@@ -53,15 +53,18 @@
             width: 70%;
             margin: auto;
         }
-        .search{
+        .call{
             &-icon{
                 display: inline-block;
                 .icons{
                     color: #797979;
                 }
             }
-            a{
+            p{
                 display: inline-block;
+                a{
+                font-size: 14px;
+                }
             }
         }
     }
