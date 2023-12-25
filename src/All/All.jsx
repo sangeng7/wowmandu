@@ -6,6 +6,7 @@ import Travel from '../Travel/Travel'
 import Sports from '../Sports/Sports'
 import International from '../International/International'
 import Cards from '../Cards/Cards'
+import ScrollTop from '../ScrollTop/ScrollTop'
 
 function All() {
   return (
@@ -19,6 +20,7 @@ function All() {
     <Sports/>
     <International/>
     <Banner/>
+    <ScrollTop/>
     </>
   )
 }
