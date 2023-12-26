@@ -21,7 +21,7 @@ function Header() {
                             <div className="col-lg-4 col-sm-6 col-xs-6">
                                 <div className="social-icons">
                                     <ul className='d-flex'>
-                                        <li className='me-2 fb'><a href=""><FontAwesomeIcon className='icons' icon={faFacebookF} /></a></li>
+                                        <li className='me-2 fb'><a href="https://www.facebook.com/wowmandu"><FontAwesomeIcon className='icons' icon={faFacebookF} /></a></li>
                                         <li className='mx-2 inst'><a href=""><FontAwesomeIcon className='icons' icon={faInstagram} /></a></li>
                                         <li className='mx-2 twt'><a href=""><FontAwesomeIcon className='icons' icon={faXTwitter} /></a></li>
                                         <li className='mx-2 gg'><a href=""><FontAwesomeIcon className='icons' icon={faGoogle} /></a></li>
