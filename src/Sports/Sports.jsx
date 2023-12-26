@@ -13,7 +13,8 @@ function Sports() {
     }, [])
     return (
         <>
-            <div className="sports">
+        <div id="sports">
+        <div className="sports">
                 <div className="container">
                     <div className="sports-header text-center">
                         <h3 className='mb-4'><a href="">Sports News</a></h3>
@@ -61,6 +62,8 @@ function Sports() {
                     </div>
                 </div>
             </div>
+        </div>
+           
         </>
     )
 }

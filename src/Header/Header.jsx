@@ -51,7 +51,18 @@ function Header() {
                         <div className="navbar text-center">
                             <div className="d-flex mx-auto">
                                 <li className='me-4'><Link to="/"><a href="">Home</a></Link></li>
-                                <li className='mx-4'><a href="">Categories</a></li>
+                                {/* <li className='mx-4'><a href="">Categories</a></li> */}
+                                <li className='mx-4'>
+                                    <div className="dropdown">
+                                        <button className="dropbtn">Category</button>
+                                        <div className="dropdown-content">
+                                            <a href="#sports">Sports</a>
+                                            <a href="#travel">Travels</a>
+                                            <a href="#">Politics</a>
+                                            <a href="#international">International</a>
+                                        </div>
+                                    </div>
+                                </li>
                                 <li className='mx-4'><a href="">Archive</a></li>
                                 <li className='mx-4'><a href="#blog">Blog</a></li>
                                 <li className='mx-4'><a href="#trending">Latest news</a></li>
@@ -66,7 +77,7 @@ function Header() {
                 <Route path="/" element={<All />} />
                 <Route path="/interChild" element={<InternationalChild />} />
                 <Route path="/admin" element={<Dashboard />} />
-                <Route path="/login"element={<Admin />} />
+                <Route path="/login" element={<Admin />} />
             </Routes>
         </>
     )

@@ -13,7 +13,8 @@ function Travel() {
     }, [])
     return (
         <>
-            <div className="travel">
+        <div id="travel">
+        <div className="travel">
                 <div className="container">
                     <div className="travel-header text-center">
                         <h3 className='mb-4'><a href="">Travel News</a></h3>
@@ -63,6 +64,8 @@ function Travel() {
                     </div>
                 </div>
             </div>
+        </div>
+            
         </>
     )
 }

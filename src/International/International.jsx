@@ -13,7 +13,8 @@ function International() {
     }, [])
     return (
         <>
-            <div className="international">
+        <div id="international">
+        <div className="international">
                 <div className="container">
                     <div className="international-header text-center">
                         <h3 className='mb-4'><a href="">International News</a></h3>
@@ -63,6 +64,8 @@ function International() {
                     </div>
                 </div>
             </div>
+        </div>
+            
         </>
     )
 }
