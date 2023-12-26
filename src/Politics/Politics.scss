@@ -1,0 +1,108 @@
+.politics {
+    padding: 80px 0;
+
+    &-header {
+        padding-bottom: 60px;
+
+        h3 {
+            a {
+                font-size: 2.4rem;
+                color: #33353b;
+                font-weight: 600;
+                position: relative;
+                display: inline-block;
+
+                &:hover {
+                    &::before {
+                        transition: 0.5s;
+                        width: 55%;
+                        background: #f1444a;
+                    }
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 28%;
+                    height: 2px;
+                    background: #ff7a7f;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: -12px;
+                }
+            }
+
+        }
+    }
+
+    &-left {
+        &-text {
+            margin-top: -92px;
+            right: -6.1%;
+            width: 94%;
+            padding: 40px;
+            z-index: 555;
+            position: relative;
+            background-color: #fff;
+            .sub-heading{
+                a{
+                    font-size: 12px;
+                    color: #ff7a7f;
+                    &:hover{
+                        color: #33353b;
+                    }
+                }
+            }
+            h4{
+                a{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: #33353b;
+                    &:hover{
+                        color: #ff7a7f;
+                    }
+                }
+            }
+            p{
+                a{
+                    font-size: 14px;
+                    color: #797979;
+                }
+            }
+        }
+    }
+    &-right{
+        &-text {
+            margin-top: -92px;
+            right: -6.1%;
+            width: 94%;
+            padding: 20px;
+            z-index: 555;
+            position: relative;
+            background-color: #fff;
+            .sub-heading{
+                a{
+                    font-size: 12px;
+                    color: #ff7a7f;
+                    &:hover{
+                        color: #33353b;
+                    }
+                }
+            }
+            h4{
+                a{
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                    color: #33353b;
+                    &:hover{
+                        color: #ff7a7f;
+                    }
+                }
+            }
+            p{
+                    font-size: 14px;
+                    color: #797979;
+            }
+        }
+    }
+}

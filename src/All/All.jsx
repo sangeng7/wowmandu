@@ -7,6 +7,7 @@ import International from '../International/International'
 import Cards from '../Cards/Cards'
 import ScrollTop from '../ScrollTop/ScrollTop'
 import National from '../National/National'
+import Politics from '../Politics/Politics'
 
 function All() {
   return (
@@ -16,9 +17,10 @@ function All() {
     <Banner/>
     <Picks/>
     <National/>
+    <Politics/>
     <Banner/>
-    <Sports/>
     <International/>
+    <Sports/>
     <Banner/>
     <ScrollTop/>
     </>

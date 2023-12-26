@@ -277,6 +277,62 @@
         }
     }
 
+    .politics {
+        padding: 60px 0;
+
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 20px;
+
+                .sub-heading {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
     .international {
         padding: 6% 0;
 
@@ -1540,6 +1596,54 @@
         }
     }
 
+    .politics {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
     .international {
         padding: 70px 0;
 
@@ -1973,6 +2077,52 @@
     }
 
     .sports {
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .politics {
         &-header {
             padding-bottom: 40px;
 
@@ -2928,6 +3078,36 @@
     }
 
     .sports {
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 30px;
+
+                .sub-heading {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .politics {
         &-header {
             padding-bottom: 50px;
 
@@ -3937,6 +4117,16 @@
     }
 
     .sports {
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    .politics {
         &-header {
             h3 {
                 a {
