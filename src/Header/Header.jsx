@@ -58,7 +58,7 @@ function Header() {
                                         <div className="dropdown-content">
                                             <a href="#sports">Sports</a>
                                             <a href="#national">National</a>
-                                            <a href="#">Politics</a>
+                                            <a href="#politics">Politics</a>
                                             <a href="#international">International</a>
                                         </div>
                                     </div>
