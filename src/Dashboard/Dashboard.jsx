@@ -40,8 +40,9 @@ function Dashboard() {
                                 <div><span className="light" /><span>Trending Section</span></div>
                                 <div><span className="light" /><span>Picks Section</span></div>
                                 <div><span className="light" /><span>National Section</span></div>
-                                <div><span className="light" /><span>Sports Section</span></div>
+                                <div><span className="light" /><span>Politics Section</span></div>
                                 <div><span className="light" /><span>International Section</span></div>
+                                <div><span className="light" /><span>Sports Section</span></div>
                                 <div><span className="light" /><span>Banner Section</span></div>
 
 
