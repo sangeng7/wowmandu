@@ -68,7 +68,7 @@ function Footer() {
                             </div>
                             <div className="col-md-4 col-xs-12">
                                 <div className="footer-bottom-right text-center">
-                                    <p className='d-inline-block me-2 fb'><a href=""><FontAwesomeIcon icon={faFacebookF} /></a></p>
+                                    <p className='d-inline-block me-2 fb'><a href="https://www.facebook.com/wowmandu"><FontAwesomeIcon icon={faFacebookF} /></a></p>
                                     <p className='d-inline-block mx-2 inst'><a href=""><FontAwesomeIcon icon={faInstagram} /></a></p>
                                     <p className='d-inline-block mx-2 twt'><a href=""><FontAwesomeIcon icon={faXTwitter} /></a></p>
                                     <p className='d-inline-block ms-2 gg'><a href=""><FontAwesomeIcon icon={faGoogle} /></a></p>
