@@ -1,0 +1,26 @@
+.update {
+    &-form {
+        padding: 40px 50px;
+        border-bottom: 1px solid #E5E5E5;
+
+        input {
+            border: 1px solid #E5E5E5;
+            padding: 6px 12px;
+            width: 100%;
+            margin-bottom: 20px;
+            font-family: "Belleza", sans-serif;
+            letter-spacing: 2px;
+            font-size: 14px;
+        }
+
+        textarea {
+            border: 1px solid #E5E5E5;
+            padding: 6px 12px;
+            width: 100%;
+            font-size: 14px;
+            font-family: "Belleza", sans-serif;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+        }
+    }
+}

@@ -1417,9 +1417,27 @@
                             }
                         }
 
-                        
+
                     }
                 }
+            }
+        }
+    }
+
+    .update {
+        &-form {
+            .g-4 {
+                --bs-gutter-y: 0;
+            }
+            padding: 40px !important;
+            p {
+                font-size: 12px;
+            }
+            input{
+                letter-spacing: 1px !important;
+            }
+            textarea{
+                letter-spacing: 1px !important;
             }
         }
     }
@@ -1921,6 +1939,12 @@
                     }
                 }
             }
+        }
+    }
+
+    .update{
+        &-form{
+            
         }
     }
 
@@ -2918,6 +2942,39 @@
         }
     }
 
+    .update{
+        &-form{
+            padding: 16px 20px;
+
+            .header {
+                margin-bottom: 14px;
+
+                h6 {
+                    font-size: 14px !important;
+                }
+            }
+
+            .g-4 {
+                --bs-gutter-y: 0;
+            }
+
+            input {
+                width: 100%;
+                padding: 6px 12px;
+                margin-bottom: 14px;
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+
+            textarea {
+                padding: 6px 12px;
+                margin-bottom: 14px;
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
 }
 
 @include lg {
@@ -3842,7 +3899,7 @@
                                 }
                             }
 
-                            .row{
+                            .row {
                                 margin-bottom: 0;
                             }
 
@@ -3915,7 +3972,7 @@
                                 }
                             }
 
-                            .row{
+                            .row {
                                 margin-bottom: 0;
                             }
 
@@ -3988,7 +4045,7 @@
                                 }
                             }
 
-                            .row{
+                            .row {
                                 margin-bottom: 0;
                             }
 
