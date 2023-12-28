@@ -1160,6 +1160,92 @@
                         }
                     }
 
+                    .national {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .politics {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
                     .travel {
                         padding: 8px 14px;
 
@@ -1939,12 +2025,6 @@
                     }
                 }
             }
-        }
-    }
-
-    .update{
-        &-form{
-            
         }
     }
 
@@ -2795,6 +2875,68 @@
                     }
 
                     .picks {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .national {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .politics {
                         padding: 16px 20px;
 
                         .header {
@@ -3974,6 +4116,90 @@
 
                             .row {
                                 margin-bottom: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .politics {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+
+                            textarea {
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                    .national {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
                             }
 
                             input {
