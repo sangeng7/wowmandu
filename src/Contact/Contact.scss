@@ -1,0 +1,49 @@
+.contact{
+    background-color: #FBF1F2;
+    padding: 80px 0;
+    &-body{
+        width: 60%;
+        margin: auto;
+        background-color: #fff;
+        padding: 40px 60px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        form{
+            label{
+                font-size: 14px;
+                margin-bottom: 4px;
+                color: grey;
+            }
+            input{
+                border: 1px solid #E5E5E5;
+                padding: 4px 14px;
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 8px;
+                font-family: 'Belleza', sans-serif;
+                letter-spacing: 2px;
+                font-size: 14px;
+            }
+            textarea{
+                border: 1px solid #E5E5E5;
+                padding: 4px 14px;
+                width: 100%;
+                margin-bottom: 15px;
+                border-radius: 8px;
+                font-family: 'Belleza', sans-serif;
+                letter-spacing: 2px;
+                font-size: 14px;
+            }
+            button{
+                background-color: #ced4da;
+                border: none;
+                color: #000;
+                &:hover{
+                    color: #F5F5F9;
+                }
+                span{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
