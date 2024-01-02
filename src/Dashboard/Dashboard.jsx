@@ -35,7 +35,7 @@ function Dashboard() {
                             </div>
                             <div className="menu">
                                 <div className="active"><span className="light" /><span>Dashboards</span></div>
-                                <div><span className="light" /><span>All Blocks</span></div>
+                                <div><span className="light" /><span>All Blogs</span></div>
                                 <div><span className="light" /><span>Cards Section</span></div>
                                 <div><span className="light" /><span>Trending Section</span></div>
                                 <div><span className="light" /><span>Picks Section</span></div>
