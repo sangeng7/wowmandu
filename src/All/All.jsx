@@ -8,7 +8,7 @@ import Cards from '../Cards/Cards'
 import ScrollTop from '../ScrollTop/ScrollTop'
 import National from '../National/National'
 import Politics from '../Politics/Politics'
-import Contact from '../Contact/Contact'
+// import Contact from '../Contact/Contact'
 
 function All() {
   return (
@@ -22,7 +22,7 @@ function All() {
     <Banner/>
     <International/>
     <Sports/>
-    <Contact/>
+    {/* <Contact/> */}
     <Banner/>
     <ScrollTop/>
     </>

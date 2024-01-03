@@ -66,23 +66,27 @@
             margin: auto;
         }
 
-        .call {
-            &-icon {
-                display: inline-block;
-
-                .icons {
-                    color: #797979;
-                }
+        .search{
+            text-align: right;
+            position: relative;
+            input{
+                height: 40px;
+                border: 1px solid #E5E5E5;
+                padding: 4px 14px;
+                letter-spacing: 2px;
+                font-size: 14px;
+                width: 65%;
+                color: #000;
             }
-
-            p {
-                display: inline-block;
-
-                a {
-                    font-size: 14px;
-                }
+            span{
+                position: absolute;
+                right: 12px;
+                cursor: pointer;
+                color: #797979;
             }
         }
+
+
     }
 
     &-bottom {

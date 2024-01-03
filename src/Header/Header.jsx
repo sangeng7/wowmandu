@@ -2,7 +2,8 @@ import React from 'react'
 import './header.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebookF, faGoogle, faInstagram, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faMagnifyingGlass, faPhone } from '@fortawesome/free-solid-svg-icons'
+import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { Routes, Route, Link } from "react-router-dom";
 import All from '../All/All'
 import InternationalChild from '../InternationalChild/InternationalChild'
@@ -35,11 +36,8 @@ function Header() {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-xs-4">
-                                <div className="call text-end">
-                                    <div className="call-icon me-2">
-                                        <FontAwesomeIcon className='icons' icon={faPhone} />
-                                    </div>
-                                    <p><a href="tel:+977 9808530440">+977 9808530440</a></p>
+                                <div className="search">
+                                   <input type="text" placeholder='Search Here..'/><span><FontAwesomeIcon icon={faMagnifyingGlass} /></span>
                                 </div>
                             </div>
                         </div>
