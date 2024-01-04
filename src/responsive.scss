@@ -1515,19 +1515,58 @@
             .g-4 {
                 --bs-gutter-y: 0;
             }
+
             padding: 40px !important;
+
             p {
                 font-size: 12px;
             }
-            input{
+
+            input {
                 letter-spacing: 1px !important;
             }
-            textarea{
+
+            textarea {
                 letter-spacing: 1px !important;
             }
         }
     }
 
+    .message {
+        &-btn {
+            right: -42px;
+            letter-spacing: 0.7px;
+            padding: 3px 15px;
+            font-size: 14px;
+            top: 70%;
+        }
+        .modal-content{
+            width: 70%;
+            margin: auto;
+            .modal-body{
+                padding: 5px 14px 14px 14px;
+                h3{
+                    font-size: 1.1rem;
+                    margin-bottom: 16px !important;
+                }
+                input{
+                    font-size: 12px;
+                    padding: 2px 8px;
+                }
+                textarea{
+                    font-size: 12px;
+                    padding: 2px 8px;
+                    margin-bottom: 10px;
+                }
+                button{
+                    font-size: 0.9rem;
+                    span{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @include sm {
@@ -2022,6 +2061,35 @@
                         a {
                             font-size: 13px;
                         }
+                    }
+                }
+            }
+        }
+    }
+
+    .message {
+        .modal-content{
+            width: 74%;
+            margin: auto;
+            .modal-body{
+                padding: 8px 20px 20px 20px;
+                h3{
+                    font-size: 1.25rem;
+                    margin-bottom: 18px !important;
+                }
+                input{
+                    font-size: 13px;
+                    padding: 4px 12px;
+                }
+                textarea{
+                    font-size: 13px;
+                    padding: 4px 12px;
+                    margin-bottom: 12px;
+                }
+                button{
+                    font-size: 1rem;
+                    span{
+                        font-size: 13px;
                     }
                 }
             }
@@ -3084,8 +3152,8 @@
         }
     }
 
-    .update{
-        &-form{
+    .update {
+        &-form {
             padding: 16px 20px;
 
             .header {

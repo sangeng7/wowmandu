@@ -8,6 +8,7 @@ import Cards from '../Cards/Cards'
 import ScrollTop from '../ScrollTop/ScrollTop'
 import National from '../National/National'
 import Politics from '../Politics/Politics'
+import Message from '../Message/Message'
 // import Contact from '../Contact/Contact'
 
 function All() {
@@ -25,6 +26,7 @@ function All() {
     {/* <Contact/> */}
     <Banner/>
     <ScrollTop/>
+    <Message/>
     </>
   )
 }
