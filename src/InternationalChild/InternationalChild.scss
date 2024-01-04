@@ -35,15 +35,59 @@
             }
         }
         &-text{
-            
+            padding: 30px 0;
             p{
                 font-size: 18px;
                 color: #797979;
                 margin-bottom: 16px;
             }
         }
-        &-img{
-            margin-bottom: 30px;
+        .comment{
+            border-top: 1px solid #E5E5E5;
+            padding: 40px 0;
+            h5{
+                font-weight: 600;
+                margin-bottom: 20px;
+            }
+            form{
+                margin-bottom: 30px;
+                input{
+                    padding: 6px 18px;
+                    display: inline-block;
+                    width: 100%;
+                    margin-bottom: 16px;
+                    background-color: #FBF9FF;
+                    border: none;
+                }
+                textarea{
+                    padding: 6px 18px;
+                    width: 100%;
+                    resize: none;
+                    height: 120px;
+                    background-color: #FBF9FF;
+                    border: none;
+                }
+            }
+            &-section{
+                padding-top: 30px;
+                border-top: 1px solid #E5E5E5;
+                h6{
+                    font-weight: 600;
+                    font-size: 15px;
+                    color: #000;
+                    span{
+                        font-weight: normal;
+                        font-size: 13px;
+                        color: #797979;
+                        &:hover{
+                            color: #000;
+                        }
+                    }
+                }
+                p{
+                    margin-bottom: 30px;
+                }
+            }
         }
     }
     &-right{

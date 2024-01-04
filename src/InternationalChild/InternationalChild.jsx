@@ -42,6 +42,29 @@ function InternationalChild() {
                                         camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower </p>
 
                                 </div>
+                                <div className="comment">
+                                    <h5>06 Comments</h5>
+                                    <form action="">
+                                        <div className="row g-3">
+                                            <div className="col-md-6">
+                                                <input type="text" placeholder='Enter Your FullName*' />
+                                            </div>
+                                            <div className="col-md-6">
+                                                <input type="email" placeholder='Enter Your Email Address*' />
+                                            </div>
+                                        </div>
+                                        <textarea name="" id="" cols="30" rows="10" placeholder='Add a comment...'></textarea>
+                                    </form>
+                                    <div className="comment-section">
+                                        <h6>Satish Gurung <span> 4 weeks ago</span></h6> 
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laboriosam?</p>
+                                        <h6>Satish Gurung <span>4 weeks ago</span></h6> 
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laboriosam?</p>
+                                        <h6>Satish Gurung <span>4 weeks ago</span></h6> 
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laboriosam?</p>
+                                    </div>
+
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-4">
@@ -89,7 +112,7 @@ function InternationalChild() {
                                     </div>
                                     <div className="feeds-items">
                                         <div className="row g-3">
-                                            {News.slice(29,35).map((a) => (
+                                            {News.slice(29, 35).map((a) => (
                                                 <div className="col-md-4">
                                                     <img className='w-100' src={a.img} alt="" />
                                                 </div>
