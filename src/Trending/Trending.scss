@@ -36,6 +36,13 @@
     }
 
     &-card {
+        &-img{
+            width: 352px;
+            height: 329.517px;
+            img{
+                height: 100%;
+            }
+        }
         &-text {
             margin-top: -92px;
             right: -6%;
