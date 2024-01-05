@@ -30,17 +30,10 @@ function InternationalChild() {
                             <div className="interChild-left">
                                 <div className="interChild-left-header">
                                     <h4 className='my-4'><a href="">Second divided from form fish beast made every of seas all gathered us saying he our</a></h4>
-                                    <h6><a href=""> 03 Comments</a></h6>
-                                    <div className="quote">
-                                        <div className="quote-inner">
-                                            <p><em>"MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot
-                                                camp when you can get the MCSE study materials "</em></p>
-                                            <h6>-Sandesh Rai</h6>
-                                        </div>
-                                    </div>
+                                    <img className='w-100' src="https://www.onlinekhabar.com/wp-content/uploads/2023/07/1230x100.gif"  alt="" />
                                 </div>
                                 <div className="interChild-left-img">
-                                    <img className='w-100' src="https://hamrokhabar.com/images/main/1701233401.jpg" alt="" />
+                                    <img className='w-100' src="https://www.onlinekhabar.com/wp-content/uploads/2017/05/Supreme-Court-768x460.jpg" alt="" />
                                 </div>
                                 <div className="interChild-left-text">
                                     <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money
@@ -87,19 +80,6 @@ function InternationalChild() {
                         </div>
                         <div className="col-md-4">
                             <div className="interChild-right">
-                                <div className="category">
-                                    <div className="category-header">
-                                        <h5>Category</h5>
-                                    </div>
-                                    <div className="category-items">
-                                        <ul>
-                                            <li><a href="">Sports</a></li>
-                                            <li><a href="">Travels</a></li>
-                                            <li><a href="">International</a></li>
-                                            <li className='border-0'><a href="">Politics</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
                                 <div className="recent">
                                     <div className="recent-header">
                                         <h5>Recent Posts</h5>
@@ -123,6 +103,7 @@ function InternationalChild() {
                                 </div>
                                 <div className="banner">
                                     <img className='w-100' src="https://hamrokhabar.com/front/images/advertise/FILE002.GIF" alt="" />
+
                                 </div>
                                 <div className="feeds">
                                     <div className="feeds-header">
@@ -132,7 +113,9 @@ function InternationalChild() {
                                         <div className="row g-3">
                                             {News.slice(29, 35).map((a) => (
                                                 <div className="col-md-4">
+                                                    <div className="feeds-img">
                                                     <img className='w-100' src={a.img} alt="" />
+                                                    </div>
                                                 </div>
                                             ))}
                                         </div>
