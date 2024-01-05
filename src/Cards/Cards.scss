@@ -9,9 +9,12 @@
 
                 overflow: hidden;
                 opacity: 1.5;
+                width: 534.75px;
+                height: 515.3px;
 
                 img {
                     transition: 0.9s;
+                    height: 100%;
 
                     &:hover {
                         transform: scale(1.1);
@@ -61,9 +64,12 @@
             &-img {
 
                 overflow: hidden;
+                width: 423px;
+                height: 508.833px;
 
                 img {
                     transition: 0.9s;
+                    height: 100%;
 
                     &:hover {
                         transform: scale(1.1);
@@ -113,9 +119,12 @@
 
             &-img {
                 overflow: hidden;
+                width: 311.25px;
+                height: 243.967px;
 
                 img {
                     transition: 0.9s;
+                    height: 100%;
 
                     &:hover {
                         transform: scale(1.1);
@@ -161,10 +170,18 @@
         &-left {
             border: 10px solid #ff7a7f;
             position: relative;
+            &-img{
+                width: 205.167px;
+                height: 301.817px;
+                img{
+                    height: 100%;
+                }
+            }
 
             &:hover {
                 .cards-bottom-left-img {
                     overflow: hidden;
+
 
                     img {
                         transition: 0.9s;
@@ -215,9 +232,12 @@
 
             &-img {
                 overflow: hidden;
+                width: 249.449px;
+                height: 332.915px;
 
                 img {
                     transition: 0.9s;
+                    height: 100%;
 
                     &:hover {
                         transform: scale(1.1);
