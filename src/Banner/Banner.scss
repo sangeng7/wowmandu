@@ -1,3 +1,11 @@
-.banner{
-    padding: 60px;
+.main-banner{
+    padding: 60px 0;
+    .banner-img{
+        padding: 0;
+        width: 1116px;
+        height: 155.65px;
+        img{
+            height: 100%;
+        }
+    }
 }
