@@ -11,6 +11,16 @@ function InternationalChild() {
                 setNews(res.data)
             });
     }, [])
+
+    const [showButton, setShowButton] = useState(false);
+
+    const handleTextAreaClick = () => {
+        setShowButton(true);
+    };
+
+    const handleBlur = () => {
+        setShowButton(false);
+    };
     return (
         <>
             <div className="interChild">
@@ -47,20 +57,28 @@ function InternationalChild() {
                                     <form action="">
                                         <div className="row g-3">
                                             <div className="col-md-6">
-                                                <input type="text" placeholder='Enter Your FullName*' />
+                                                <input type="text" placeholder='Enter Your FullName*' required />
                                             </div>
                                             <div className="col-md-6">
-                                                <input type="email" placeholder='Enter Your Email Address*' />
+                                                <input type="email" placeholder='Enter Your Email Address*' required />
                                             </div>
                                         </div>
-                                        <textarea name="" id="" cols="30" rows="10" placeholder='Add a comment...'></textarea>
+                                        <textarea
+                                            onFocus={handleTextAreaClick}
+                                            onBlur={handleBlur}
+                                            cols="30"
+                                            rows="10"
+                                            placeholder='Add a comment...'
+                                            required
+                                        ></textarea>
+                                        {showButton && <button>Submit</button>}
                                     </form>
                                     <div className="comment-section">
-                                        <h6>Satish Gurung <span> 4 weeks ago</span></h6> 
+                                        <h6>Satish Gurung <span>4 weeks ago</span></h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laboriosam?</p>
-                                        <h6>Satish Gurung <span>4 weeks ago</span></h6> 
+                                        <h6>Satish Gurung <span>4 weeks ago</span></h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laboriosam?</p>
-                                        <h6>Satish Gurung <span>4 weeks ago</span></h6> 
+                                        <h6>Satish Gurung <span>4 weeks ago</span></h6>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, laboriosam?</p>
                                     </div>
 
