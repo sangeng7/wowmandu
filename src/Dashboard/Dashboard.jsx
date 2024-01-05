@@ -36,16 +36,8 @@ function Dashboard() {
                             <div className="menu">
                                 <div className="active"><span className="light" /><span>Dashboards</span></div>
                                 <div><span className="light" /><span>All Blogs</span></div>
-                                <div><span className="light" /><span>Cards Section</span></div>
-                                <div><span className="light" /><span>Trending Section</span></div>
-                                <div><span className="light" /><span>Picks Section</span></div>
-                                <div><span className="light" /><span>National Section</span></div>
-                                <div><span className="light" /><span>Politics Section</span></div>
-                                <div><span className="light" /><span>International Section</span></div>
-                                <div><span className="light" /><span>Sports Section</span></div>
-                                <div><span className="light" /><span>Banner Section</span></div>
-
-
+                                <div><span className="light" /><span>Add Blogs</span></div>
+                                <div><span className="light" /><span>Add Banner</span></div>
                             </div>
                         </div>
                         <div className="gc gc--2-of-3">
@@ -56,10 +48,10 @@ function Dashboard() {
                                     </div>
                                 </li>
                                 <li>
-                                    <div className="all-blocks">
+                                    <div className="all-blogs">
                                         <div className="col-lg-12 col-md-12 ">
                                             {News.slice(14, 15).map((a) => (
-                                                <div className="picks-right">
+                                                <div className="picks-right mb-4">
 
                                                     <div className="row g-4 align-items-center mb-md-4 mb-sm-5">
                                                         <div className="col-md-5 col-sm-5">
@@ -83,7 +75,7 @@ function Dashboard() {
                                                             </div>
                                                         </div>
                                                         <div className="col-md-6">
-                                                            <div className="update-btn">
+                                                            <div className="delete-btn">
                                                                 <input type="submit" value='Delete' />
                                                             </div>
                                                         </div>
@@ -97,18 +89,21 @@ function Dashboard() {
                                 <li>
                                     <div className="cards">
                                         <div className="cards-header text-center">
-                                            <h4>Update The Existing Data</h4>
+                                            <h4>Add Blogs</h4>
                                         </div>
                                         <div className="cards-top">
                                             <div className="cards-top-left">
                                                 <div className="header">
-                                                    <h6>Cards Section</h6>
+                                                    <h6></h6>
                                                 </div>
                                                 <div className="row g-4">
                                                     <div className="col-md-6">
                                                         <div className="row">
                                                             <div className="col-md-12">
-                                                                <input className='w-100' type="text" placeholder='Enter the News Tag' />
+                                                                {/* <input className='w-100' type="text" placeholder='Enter the News Tag' /> */}
+                                                                <select name="" id="">
+                                                                    <option value="">Sports</option>
+                                                                </select>
                                                             </div>
                                                             <div className="col-md-12">
                                                                 <input className='w-100' type="text" placeholder='Enter the News Heading' />
@@ -130,255 +125,13 @@ function Dashboard() {
                                                     </div>
                                                 </div>
                                                 <div className="update-btn">
-                                                    <input type="submit" value='Update' />
+                                                    <input type="submit" value='Add' />
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="trending">
-                                        <div className="trending-header text-center">
-                                            <h4>Update The Existing Data</h4>
-                                        </div>
-                                        <div className="trending-card">
-                                            <div className="header">
-                                                <h6>Trending Card</h6>
-                                            </div>
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Tag' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Heading' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Image URL' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Published Date' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 mt-0">
-                                                    <textarea name="" id="" cols="30" rows="10" placeholder='Enter the News Description'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="update-btn">
-                                                <input type="submit" value='Update' />
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="picks">
-                                        <div className="picks-header text-center">
-                                            <h4>Update The Existing Data</h4>
-                                        </div>
-                                        <div className="picks-left">
-                                            <div className="header">
-                                                <h6>Picks Card</h6>
-                                            </div>
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Tag' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Heading' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Image URL' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Published Date' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 mt-0">
-                                                    <textarea name="" id="" cols="30" rows="10" placeholder='Enter the News Description'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="update-btn">
-                                                <input type="submit" value='Update' />
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="national">
-                                        <div className="national-header text-center">
-                                            <h4>Update The Existing Data</h4>
-                                        </div>
-                                        <div className="national-left">
-                                            <div className="header">
-                                                <h6>National Card</h6>
-                                            </div>
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Tag' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Heading' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Image URL' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Published Date' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 mt-0">
-                                                    <textarea name="" id="" cols="30" rows="10" placeholder='Enter the News Description'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="update-btn">
-                                                <input type="submit" value='Update' />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="politics">
-                                        <div className="politics-header text-center">
-                                            <h4>Update The Existing Data</h4>
-                                        </div>
-                                        <div className="politics-left">
-                                            <div className="header">
-                                                <h6>Politics Section</h6>
-                                            </div>
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Tag' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Heading' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Image URL' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Published Date' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 mt-0">
-                                                    <textarea name="" id="" cols="30" rows="10" placeholder='Enter the News Description'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="update-btn">
-                                                <input type="submit" value='Update' />
                                             </div>
                                         </div>
                                     </div>
                                 </li>
                                 
-                                <li>
-                                    <div className="international">
-                                        <div className="international-header text-center">
-                                            <h4>Update The Existing Data</h4>
-                                        </div>
-                                        <div className="international-left">
-                                            <div className="header">
-                                                <h6>International Section</h6>
-                                            </div>
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Tag' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Heading' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Image URL' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Published Date' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 mt-0">
-                                                    <textarea name="" id="" cols="30" rows="10" placeholder='Enter the News Description'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="update-btn">
-                                                <input type="submit" value='Update' />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div className="sports">
-                                        <div className="sports-header text-center">
-                                            <h4>Update The Existing Data</h4>
-                                        </div>
-                                        <div className="sports-left">
-                                            <div className="header">
-                                                <h6>Sports Section</h6>
-                                            </div>
-                                            <div className="row g-4">
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Tag' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the News Heading' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-6">
-                                                    <div className="row">
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Image URL' />
-                                                        </div>
-                                                        <div className="col-md-12">
-                                                            <input className='w-100' type="text" placeholder='Enter the Published Date' />
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div className="col-md-12 mt-0">
-                                                    <textarea name="" id="" cols="30" rows="10" placeholder='Enter the News Description'></textarea>
-                                                </div>
-                                            </div>
-                                            <div className="update-btn">
-                                                <input type="submit" value='Update' />
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
                                 <li>
                                     <div className="banner">
                                         <div className="banner-header text-center">
