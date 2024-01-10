@@ -40,13 +40,9 @@
         &-img {
 
             overflow: hidden;
-            width: 546px;
-            height: 584.367px;
 
             img {
                 transition: 0.9s;
-                height: 100%;
-                object-fit: cover;
 
                 &:hover {
                     transform: scale(1.1);
@@ -116,11 +112,8 @@
         }
         &-img{
             overflow: hidden;
-            width: 213.5px;
-            height: 262.833px;
             img{
                 vertical-align: middle;
-                height: 100%;
                 object-fit: cover;
                 transition: 0.9s;
 
