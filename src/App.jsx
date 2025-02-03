@@ -4,13 +4,15 @@ import Footer from './Footer/Footer'
 import ScrollTop from './ScrollTop/ScrollTop'
 import './responsive.scss'
 import Update from './Update/Update'
+import Header2 from './Header2/Header2'
 
 function App() {
   return (
     <>
     <Header/>
     <Footer/>
-    <Update/>
+
+    <Header2/>
     
     </>
   )

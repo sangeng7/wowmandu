@@ -43,7 +43,6 @@ function InternationalChild() {
 
                                     <p>MCSE boot camps have its supporters and its detractors. Some people do not understand why you should have to spend money on boot
                                         camp when you can get the MCSE study materials yourself at a fraction of the camp price. However, who has the willpower </p>
-
                                 </div>
                                 <div className="comment">
                                     <h5>06 Comments</h5>
@@ -64,7 +63,9 @@ function InternationalChild() {
                                             placeholder='Add a comment...'
                                             required
                                         ></textarea>
-                                        {showButton && <button>Submit</button>}
+                                        {/* {showButton && <button>Submit</button>} */}
+                                        <button>Submit</button>
+
                                     </form>
                                     <div className="comment-section">
                                         <h6>Satish Gurung <span>4 weeks ago</span></h6>
